@@ -11,7 +11,7 @@
 	 
 
 
-#selectable{
+#voorwoord{
 	width: 500px;
 	margin-top: 80px;
 	margin-left: 50px;	
@@ -20,11 +20,22 @@
 	float: left;
 	letter-spacing:1px;
 	line-height: 16pt;
+    border-bottom: thin line #ff0000;
+}
+
+#inleiding{
+	width: 500px;
+	margin-left: 50px;	
+	font-family: 'Arimo', sans-serif;	
+	font-size: 16px;
+	letter-spacing:1px;
+	line-height: 16pt;
+    border-bottom: thin line #ff0000;
 }
 
 .titel{
 	width: 400px;
- 	margin-top: 100px;
+ 	margin-top: 190px;
 	margin-left: -180px;
     /* Safari */
 	-webkit-transform: rotate(-90deg);
@@ -36,14 +47,13 @@
 	-o-transform: rotate(-90deg);
 	/* Internet Explorer */
 	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-	position: absolute;
+	position: fixed;
 	letter-spacing:1px;
 }
 .onderschrift{
 	width: 250px;
 	margin-top: 150px;
 	margin-left: 120px;
-
 	-webkit-transform: rotate(-90deg);
 	-moz-transform: rotate(-90deg);
 	-ms-transform: rotate(-90deg);
@@ -52,7 +62,7 @@
 	position: absolute;
 	letter-spacing:1px;
 	font-size: 10px;
-		line-height: 10pt;
+	line-height: 10pt;
 
 
 }
@@ -68,11 +78,16 @@
 }
 
 h1 {
-	font-size: 30px
+	font-size: 30px;
+	line-height: 28pt;
+
+	letter-spacing:1px;
+	text-align: center;
+
 }
 
 h2 {
-	font-size: 20px
+	font-size: 20px;
 }
 
 ::-moz-selection {
