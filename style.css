@@ -1,70 +1,61 @@
-#makeMeDraggable1 { 
-		width: 200px;
-		height: 302px;
-		margin-top: 10px;
-		margin-left: 550px;
-		background-image: url("http://kabk.github.io/govt-theses-16-john-van-der-meule/images/1.jpg");
-		position: absolute;
-	 }
-	 
-	 #makeMeDraggable2 { 
-		width: 100px;
-		height: 149px;
-		margin-top: 120px;
-		margin-left: 670px;
-		background-image: url("http://kabk.github.io/govt-theses-16-john-van-der-meule/images/2.jpg");
-		position: absolute;
-	 }
-	 
-	 #makeMeDraggable3 { 
-		width: 230px;
-		height: 153px;
-		margin-top: 250px;
-		margin-left: 10px;
-		background-image: url("http://kabk.github.io/govt-theses-16-john-van-der-meule/images/3.jpg");
-		position: absolute;
-	 }
-	 #makeMeDraggable4 { 
-		width: 80px;
-		height: 117px;
-		margin-top: 300px;
-		margin-left: 450px;	
-		background-image: url("http://kabk.github.io/govt-theses-16-john-van-der-meule/images/4.jpg");
-		position: absolute;
-	 }
-	 
-	 #makeMeDraggable5 { 
+	.makeMeDraggable1 { 
 		width: 250px;
-		height: 318px;
-		margin-top: 500px;
-		margin-left: 370px;
-		background-image: url("http://kabk.github.io/govt-theses-16-john-van-der-meule/images/5.jpg");
-		position: absolute;
+		height: 302px;
+		margin-left: auto;	
+		margin-right: auto;	
+		background-image: url("http://kabk.github.io/govt-theses-16-john-van-der-meule/images/1.jpg");
+		background-repeat: no-repeat;
+		position: related;
 	 }
-	 #makeMeDraggable6 { 
-		width: 50px;
-		height: 73px;
-		margin-top: 200px;
-		margin-left: 200px;
-		background-image: url("http://kabk.github.io/govt-theses-16-john-van-der-meule/images/6.jpg");
-		position: absolute;
-	 }
+	
 	 
 
 
-.header{
-	width: 700px;
+#selectable{
+	width: 500px;
 	margin-top: 80px;
 	margin-left: 50px;	
-	font-family: Univers LT Std;
-	font-size: 20px;
+	font-family: 'Arimo', sans-serif;	
+	font-size: 16px;
 	float: left;
-
-		
-
+	letter-spacing:1px;
+	line-height: 16pt;
 }
 
+.titel{
+	width: 400px;
+ 	margin-top: 100px;
+	margin-left: -180px;
+    /* Safari */
+	-webkit-transform: rotate(-90deg);
+	/* Firefox */
+	-moz-transform: rotate(-90deg);
+	/* IE */
+	-ms-transform: rotate(-90deg);
+	/* Opera */
+	-o-transform: rotate(-90deg);
+	/* Internet Explorer */
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+	position: absolute;
+	letter-spacing:1px;
+}
+.onderschrift{
+	width: 250px;
+	margin-top: 150px;
+	margin-left: 120px;
 
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+	position: absolute;
+	letter-spacing:1px;
+	font-size: 10px;
+		line-height: 10pt;
+
+
+}
 
 .question{
 	width: 450px;
