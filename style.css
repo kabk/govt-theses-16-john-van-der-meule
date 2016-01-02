@@ -12,7 +12,7 @@
 
 
 #voorwoord{
-	width: 500px;
+	width: 600px;
 	margin-top: 80px;
 	margin-left: 50px;	
 	font-family: 'Arimo', sans-serif;	
@@ -24,7 +24,7 @@
 }
 
 #inleiding{
-	width: 500px;
+	width: 600px;
 	margin-left: 50px;	
 	font-family: 'Arimo', sans-serif;	
 	font-size: 16px;
@@ -34,9 +34,10 @@
 }
 
 .titel{
-	width: 400px;
- 	margin-top: 190px;
-	margin-left: -180px;
+	width: 450px;
+	font-family: 'Arimo', sans-serif;	
+ 	margin-top: 220px;
+	margin-left: -205px;
     /* Safari */
 	-webkit-transform: rotate(-90deg);
 	/* Firefox */
