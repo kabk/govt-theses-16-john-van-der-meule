@@ -85,11 +85,11 @@ h2 {
 }
 
 ::-moz-selection {
-    background-color: #dd2020;
-    color: #fff;
+    background-color: #00ffcc;
+    color: #000;
 }
  
 ::selection {
-    background-color: #dd2020;
-    color: #fff;
+    background-color: #00ffcc;
+    color: #000;
 }
