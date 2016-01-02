@@ -9,11 +9,21 @@
 	 }
 	
 	 
-
+#titel{
+	width: 600px;
+	margin-top: -50px;
+	margin-left: 50px;	
+	font-family: 'Arimo', sans-serif;	
+	font-size: 16px;
+	float: left;
+	letter-spacing:1px;
+	line-height: 16pt;
+    border-bottom: thin line #ff0000;
+}
 
 #voorwoord{
 	width: 600px;
-	margin-top: 80px;
+	margin-top: -50px;
 	margin-left: 50px;	
 	font-family: 'Arimo', sans-serif;	
 	font-size: 16px;
@@ -33,7 +43,7 @@
     border-bottom: thin line #ff0000;
 }
 
-.titel{
+.sidetitel{
 	width: 450px;
 	font-family: 'Arimo', sans-serif;	
  	margin-top: 220px;
@@ -88,7 +98,11 @@ h1 {
 }
 
 h2 {
-	font-size: 20px;
+	font-size: 80px;
+	line-height: 68pt;
+	font-weight: normal;
+	letter-spacing:1px;
+	text-align: center;
 }
 
 ::-moz-selection {
