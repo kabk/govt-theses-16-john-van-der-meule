@@ -11,7 +11,7 @@
 	 
 #titel{
 	width: 600px;
-	margin-top: -50px;
+	margin-top: 0px;
 	margin-left: 50px;	
 	font-family: 'Arimo', sans-serif;	
 	font-size: 16px;
@@ -45,7 +45,7 @@
 .sidetitel{
 	width: 450px;
 	font-family: 'Arimo', sans-serif;	
- 	margin-top: 220px;
+ 	margin-top: 270px;
 	margin-left: -205px;
     /* Safari */
 	-webkit-transform: rotate(-90deg);
@@ -86,6 +86,10 @@
 	float: left;
 
 }
+
+P { 
+	text-indent: 30px;
+	 }
 
 h1 {
 	font-size: 30px;
