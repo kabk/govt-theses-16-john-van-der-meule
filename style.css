@@ -1,65 +1,57 @@
-	.makeMeDraggable1 { 
-		width: 250px;
-		height: 302px;
-		margin-left: auto;	
-		margin-right: auto;	
-		background-image: url("http://kabk.github.io/govt-theses-16-john-van-der-meule/images/1.jpg");
-		background-repeat: no-repeat;
-		position: related;
-	 }
+
+	 
+#sidetitel{
+	width: 430px;
+	height: 23px;
+	font-family: 'Arimo', sans-serif;
+	letter-spacing:1px;	
+	background-color: #00ffcc;
+    margin: auto;
+  	top: 0; left: -800px; bottom: 0; right: 0;	
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+	position: fixed;
 	
+	
+}
 	 
 #titel{
-	width: 600px;
-	margin-top: 0px;
-	margin-left: 50px;	
+	width: 750px;
+	margin-top: -30px;
+	margin-bottom: 200px;
+	margin-right:auto;
+    margin-left: auto;
 	font-family: 'Arimo', sans-serif;	
 	font-size: 16px;
-	float: left;
 	letter-spacing:1px;
 	line-height: 16pt;
-    border-bottom: thin line #ff0000;
 }
 
 #voorwoord{
-	width: 600px;
+	width: 700px;
 	margin-top: -50px;
-	margin-left: 50px;	
+	margin-right:auto;
+    margin-left: auto;	
 	font-family: 'Arimo', sans-serif;	
 	font-size: 16px;
 	letter-spacing:1px;
 	line-height: 16pt;
-    border-bottom: thin line #ff0000;
 }
 
 #inleiding{
-	width: 600px;
-	margin-left: 50px;	
+	width: 700px;
+	margin-right:auto;
+    margin-left: auto;
 	font-family: 'Arimo', sans-serif;	
 	font-size: 16px;
 	letter-spacing:1px;
 	line-height: 16pt;
-    border-bottom: thin line #ff0000;
 }
 
-.sidetitel{
-	width: 450px;
-	font-family: 'Arimo', sans-serif;	
- 	margin-top: 270px;
-	margin-left: -205px;
-    /* Safari */
-	-webkit-transform: rotate(-90deg);
-	/* Firefox */
-	-moz-transform: rotate(-90deg);
-	/* IE */
-	-ms-transform: rotate(-90deg);
-	/* Opera */
-	-o-transform: rotate(-90deg);
-	/* Internet Explorer */
-	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-	position: fixed;
-	letter-spacing:1px;
-}
+
 .onderschrift{
 	width: 250px;
 	margin-top: 150px;
@@ -74,18 +66,31 @@
 	font-size: 10px;
 	line-height: 10pt;
 
-
 }
 
-.question{
-	width: 450px;
-	margin-top: 60px;
-	margin-left: 60px;	
-	font-family: Univers LT Std;
-	font-size: 20px;
-	float: left;
-
+.footer{
+font-family: 'Arimo', sans-serif;	
+position: fixed;
+bottom: 15px;
+text-align: right;
+right: 15px;
+width: 250px;
+font-size: 10px;
+line-height: 10pt;
+letter-spacing: 0.04em;
+padding-left: 15px;
 }
+
+	.makeMeDraggable1 { 
+		width: 250px;
+		height: 302px;
+		margin-left: auto;	
+		margin-right: auto;	
+		background-image: url("http://kabk.github.io/govt-theses-16-john-van-der-meule/images/1.jpg");
+		background-repeat: no-repeat;
+		position: related;
+	 }
+	
 
 P { 
 	text-indent: 30px;
