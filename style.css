@@ -221,17 +221,14 @@ h2 {
 	text-align: center;
 }
 
-::-o-selection {
-    background-color: #00ffcc;
-    color: #000;
-}
+
 
 ::-moz-selection {
     background-color: #00ffcc;
     color: #000;
 }
  
-::web-kit-selection {
+::selection {
     background-color: #00ffcc;
     color: #000;
 }
