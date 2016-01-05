@@ -1,7 +1,40 @@
 
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-button {
+  width: 24px;
+  height: 24px;
+}
+::-webkit-scrollbar-thumb {
+  background: #00ffcc;
+  border: 0px none #ffffff;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #00ffcc;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #00ffcc;
+}
+::-webkit-scrollbar-track {
+  background: #FFFFFF;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #FFFFFF;
+}
+::-webkit-scrollbar-track:active {
+  background: #FFFFFF;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
 	 
 #sidetitel{
-	width: 430px;
+	width: 550px;
 	height: 23px;
 	font-family: 'Arimo', sans-serif;
 	letter-spacing:1px;	
@@ -13,6 +46,7 @@
 	-o-transform: rotate(-90deg);
 	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 	position: fixed;
+	text-transform: uppercase;
 	
 	
 }
@@ -64,6 +98,7 @@
 	letter-spacing:1px;
 	font-size: 10px;
 	line-height: 10pt;
+	
 
 }
 
@@ -88,6 +123,7 @@ padding-left: 15px;
 		background-image: url("http://kabk.github.io/govt-theses-16-john-van-der-meule/images/1.jpg");
 		background-repeat: no-repeat;
 		position: related;
+		
 	 }
 	
 u2 { border-bottom: solid 2px #00ffcc;
