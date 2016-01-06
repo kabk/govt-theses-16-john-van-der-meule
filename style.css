@@ -202,7 +202,37 @@
 .onderschrift{
 	width: 250px;
 	margin-top: 150px;
-	margin-left: 120px;
+	margin-left: 110px;
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+	position: absolute;
+	letter-spacing:1px;
+	font-size: 10px;
+	line-height: 10pt;
+}
+
+.onderschriftkolom1{
+	width: 250px;
+	margin-top: 167px;
+	margin-left: 110px;
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+	position: absolute;
+	letter-spacing:1px;
+	font-size: 10px;
+	line-height: 10pt;
+}
+
+.onderschriftkolom2{
+	width: 250px;
+	margin-top: 167px;
+	margin-left: 280px;
 	-webkit-transform: rotate(-90deg);
 	-moz-transform: rotate(-90deg);
 	-ms-transform: rotate(-90deg);
@@ -266,10 +296,8 @@ padding-left: 15px;
 	 }
 	 
 	 .makeMeDraggable3 { 
-		width: 200px;
+		width: 220px;
 		height: 300px;
-		margin-left: auto;	
-		margin-right: auto;	
 		margin-top: 25px;	
 		margin-bottom: 25px;
 		background-image: url("http://kabk.github.io/govt-theses-16-john-van-der-meule/images/Braque_fruit.jpg");
@@ -279,10 +307,9 @@ padding-left: 15px;
 	 }
 	 
 	  .makeMeDraggable4 { 
-		width: 220px;
+		width: 398px;
 		height: 300px;
-		margin-left: auto;	
-		margin-right: auto;	
+		margin-left: -70px;	
 		margin-top: 25px;	
 		margin-bottom: 25px;
 		background-image: url("http://kabk.github.io/govt-theses-16-john-van-der-meule/images/Picasso_chair.jpg");
