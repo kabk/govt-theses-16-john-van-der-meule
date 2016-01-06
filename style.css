@@ -136,6 +136,7 @@
 	margin-top: -50px;
 	margin-right:auto;
     margin-left: auto;	
+    margin-bottom: 80px;	
 	font-family: 'Arimo', sans-serif;	
 	font-size: 16px;
 	letter-spacing:1px;
@@ -146,10 +147,45 @@
 	width: 700px;
 	margin-right:auto;
     margin-left: auto;
+    margin-bottom: 80px;
 	font-family: 'Arimo', sans-serif;	
 	font-size: 16px;
 	letter-spacing:1px;
 	line-height: 16pt;
+}
+
+#mensals{
+	width: 700px;
+	margin-right:auto;
+    margin-left: auto;
+    margin-bottom: 80px;
+	font-family: 'Arimo', sans-serif;	
+	font-size: 16px;
+	letter-spacing:1px;
+	line-height: 16pt;
+}
+
+#geschiedenis{
+	width: 700px;
+	margin-right:auto;
+    margin-left: auto;
+    margin-bottom: 80px;
+	font-family: 'Arimo', sans-serif;	
+	font-size: 16px;
+	letter-spacing:1px;
+	line-height: 16pt;
+}
+
+#footnote{
+	width: 700px;
+	margin-right:auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+	font-family: 'Arimo', sans-serif;	
+	font-size: 14px;
+	letter-spacing:1px;
+	line-height: 14pt;
+	
 }
 
 
@@ -193,6 +229,26 @@ padding-left: 15px;
 		position: related;
 		
 	 }
+	 
+	 .makeMeDraggable2 { 
+		width: 700px;
+		margin-left: auto;	
+		margin-right: auto;	
+		background-image: url("");
+		background-repeat: no-repeat;
+		position: related;
+		
+	 }
+	 
+	 .makeMeDraggable3 { 
+		width: 700px;
+		margin-left: auto;	
+		margin-right: auto;	
+		background-image: url("Braque_fruit.jpg");
+		background-repeat: no-repeat;
+		position: related;
+		
+	 }
 	
 u2 { border-bottom: solid 2px #00ffcc;
 	
@@ -221,7 +277,33 @@ h2 {
 	text-align: center;
 }
 
+sup { 
+    line-height: 10pt;
+    font-size: smaller;
+}
 
+a:link {
+    color: #000000;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #000000;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #00ffcc;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: #000000;
+    text-decoration: none;
+}
 
 ::-moz-selection {
     background-color: #00ffcc;
