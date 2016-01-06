@@ -176,18 +176,28 @@
 	line-height: 16pt;
 }
 
-#footnote{
-	width: 700px;
+#geschiedeniskolom1{
+	width: 350px;
 	margin-right:auto;
     margin-left: auto;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 	font-family: 'Arimo', sans-serif;	
-	font-size: 14px;
+	font-size: 16px;
 	letter-spacing:1px;
-	line-height: 14pt;
-	
+	line-height: 16pt;
+	float: left;
 }
-
+#geschiedeniskolom2{
+	width: 350px;
+	margin-right:auto;
+    margin-left: auto;
+    margin-bottom: 40px;
+	font-family: 'Arimo', sans-serif;	
+	font-size: 16px;
+	letter-spacing:1px;
+	line-height: 16pt;
+	float: left;
+}
 
 .onderschrift{
 	width: 250px;
@@ -202,9 +212,22 @@
 	letter-spacing:1px;
 	font-size: 10px;
 	line-height: 10pt;
-	
-
 }
+
+#footnote{
+	width: 700px;
+	margin-right:auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+	font-family: 'Arimo', sans-serif;	
+	font-size: 14px;
+	letter-spacing:1px;
+	line-height: 14pt;
+	
+}
+
+
+
 
 .footer{
 font-family: 'Arimo', sans-serif;	
@@ -250,6 +273,19 @@ padding-left: 15px;
 		margin-top: 25px;	
 		margin-bottom: 25px;
 		background-image: url("http://kabk.github.io/govt-theses-16-john-van-der-meule/images/Braque_fruit.jpg");
+		background-repeat: no-repeat;
+		position: related;
+		
+	 }
+	 
+	  .makeMeDraggable3 { 
+		width: 220px;
+		height: 300px;
+		margin-left: auto;	
+		margin-right: auto;	
+		margin-top: 25px;	
+		margin-bottom: 25px;
+		background-image: url("http://kabk.github.io/govt-theses-16-john-van-der-meule/images/Picasso_chair.jpg");
 		background-repeat: no-repeat;
 		position: related;
 		
