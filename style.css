@@ -291,7 +291,7 @@ padding-left: 15px;
 		background-image: url("http://kabk.github.io/govt-theses-16-john-van-der-meule/images/1.jpg");
 		background-repeat: no-repeat;
 		position: related;
-		cursor: pointer;
+		cursor: url("http://kabk.github.io/govt-theses-16-john-van-der-meule/images/cursor.png"), auto;
 		
 	 }
 	 
