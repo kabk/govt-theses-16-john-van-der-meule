@@ -114,9 +114,7 @@
 	-o-transform: rotate(-90deg);
 	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 	position: fixed;
-	text-transform: uppercase;
-	
-	
+	text-transform: uppercase;	
 }
 	 
 #titel{
@@ -230,7 +228,7 @@
 }
 
 .onderschriftkolom2{
-	width: 250px;
+	width: 280px;
 	margin-top: 167px;
 	margin-left: 280px;
 	-webkit-transform: rotate(-90deg);
@@ -257,7 +255,18 @@
 }
 
 
-
+.menu{
+font-family: 'Arimo', sans-serif;	
+position: fixed;
+top: 15px;
+text-align: right;
+right: 15px;
+width: 150px;
+font-size: 10px;
+line-height: 10pt;
+letter-spacing: 0.04em;
+padding-left: 15px;
+}
 
 .footer{
 font-family: 'Arimo', sans-serif;	
@@ -341,6 +350,17 @@ h2 {
 	font-size: 80px;
 	line-height: 68pt;
 	font-weight: normal;
+	letter-spacing:1px;
+	text-align: center;
+}
+
+h3 {
+	font-size: 16px;
+	width: 600px;
+	margin-left: auto;	
+	margin-right: auto;	
+	line-height: 18pt;
+	font-weight: bold;
 	letter-spacing:1px;
 	text-align: center;
 }
