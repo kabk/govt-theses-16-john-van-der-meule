@@ -1,4 +1,13 @@
 
+body, html {
+  height: 100%;
+  margin-top: 0px;
+margin-bottom: 0px;
+margin-right: 0px;
+margin-left: 0px;
+}
+
+
 ::-webkit-scrollbar {
   width: 10px;
   height: 10px;
@@ -100,6 +109,19 @@
 ::-moz-scrollbar-corner {
   background: transparent;
 }
+
+#multicover{
+	height: 100%;
+	background-image: url("http://kabk.github.io/govt-theses-16-john-van-der-meule/images/multi_back.jpg");
+	margin-top: -30px;
+	margin-bottom: 200px;
+	margin-right:auto;
+    margin-left: auto;
+	font-family: 'Arimo', sans-serif;	
+	font-size: 16px;
+	letter-spacing:1px;
+	line-height: 16pt;
+}
 	 
 #sidetitel{
 	width: 550px;
@@ -119,14 +141,13 @@
 	 
 #titel{
 	width: 750px;
-	margin-top: -30px;
-	margin-bottom: 200px;
 	margin-right:auto;
     margin-left: auto;
 	font-family: 'Arimo', sans-serif;	
 	font-size: 16px;
 	letter-spacing:1px;
 	line-height: 16pt;
+	
 }
 
 #voorwoord{
@@ -291,7 +312,7 @@ padding-left: 15px;
 		background-image: url("http://kabk.github.io/govt-theses-16-john-van-der-meule/images/1.jpg");
 		background-repeat: no-repeat;
 		position: related;
-		cursor: url("http://kabk.github.io/govt-theses-16-john-van-der-meule/images/cursor.png"), auto;
+		cursor: pointer;
 		
 	 }
 	 
