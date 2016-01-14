@@ -143,19 +143,16 @@ margin-left: 0px;
 }
 	 
 #sidetitel{
-	width: 550px;
+	width: 520px;
 	height: 23px;
+	background-color: #00ffcc;
 	font-family: 'Arimo', sans-serif;
 	letter-spacing:1px;	
-    margin: auto;
-  	top: 0; left: -850px; bottom: 0; right: 0;	
-	-webkit-transform: rotate(-90deg);
-	-moz-transform: rotate(-90deg);
-	-ms-transform: rotate(-90deg);
-	-o-transform: rotate(-90deg);
-	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-	position: fixed;
+  	margin-right:auto;
+    margin-left: auto;
+    text-align: center;
 	text-transform: uppercase;	
+	z-index : 0;
 }
 	 
 #titel{
