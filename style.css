@@ -1,29 +1,34 @@
-@media print {
-   
-   .menu {
-	display: none;
+a:link {
+    color: #000000;
+    text-decoration: none;
 }
 
- .footer {
-	display: none;
+/* visited link */
+a:visited {
+    color: #000000;
+    text-decoration: none;
 }
 
-.sidetitle{
-	display: none;
+/* mouse over link */
+a:hover {
+    color: #00ffcc;
+    text-decoration: none;
 }
 
-
-
+/* selected link */
+a:active {
+    color: #000000;
+    text-decoration: none;
 }
 
-
-
-body, html {
-  height: 100%;
-  margin-top: 0px;
-margin-bottom: 0px;
-margin-right: 0px;
-margin-left: 0px;
+::-moz-selection {
+    background-color: #00ffcc;
+    color: #000;
+}
+ 
+::selection {
+    background-color: #00ffcc;
+    color: #000;
 }
 
 
@@ -129,6 +134,37 @@ margin-left: 0px;
   background: transparent;
 }
 
+
+<!-- PRINT -->
+
+@media print {
+   .menu {
+    display: none;
+    }
+
+ .footer {
+    display: none;
+    }
+
+.sidetitle{
+    display: none;
+    }
+
+
+}
+
+
+
+
+
+body, html {
+  height: 100%;
+  padding-top: 0px;
+margin-bottom: 0px;
+padding-right: 13%;
+padding-left: 13%;
+}
+
 #multicover{
 	height: 100%;
 	margin-top: -80px;
@@ -156,7 +192,7 @@ margin-left: 0px;
 }
 	 
 #titel{
-	width: 750px;
+	width: 100%;
 	margin-right:auto;
     margin-left: auto;
 	font-family: 'Arimo', sans-serif;	
@@ -166,8 +202,10 @@ margin-left: 0px;
 	
 }
 
-#voorwoord{
-	width: 700px;
+	 
+
+.article{
+	width: 100%;
 	margin-top: -50px;
 	margin-right:auto;
     margin-left: auto;	
@@ -178,112 +216,48 @@ margin-left: 0px;
 	line-height: 16pt;
 }
 
-#inleiding{
-	width: 700px;
-	margin-right:auto;
-    margin-left: auto;
-    margin-bottom: 80px;
-	font-family: 'Arimo', sans-serif;	
-	font-size: 16px;
-	letter-spacing:1px;
-	line-height: 16pt;
+.opsomming {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 20px;
+	line-height: 18pt;
 }
 
-#mensals{
-	width: 700px;
-	margin-right:auto;
-    margin-left: auto;
-    margin-bottom: 80px;
-	font-family: 'Arimo', sans-serif;	
-	font-size: 16px;
-	letter-spacing:1px;
-	line-height: 16pt;
+.eigenwerk {
+	margin-top: 40px;
+	margin-bottom: 10px;
+	background-color: #bffff2;
+	padding: 20px;
+	line-height: 18pt;
 }
 
-#geschiedenis{
-	width: 700px;
-	margin-right:auto;
-    margin-left: auto;
-    margin-bottom: 80px;
-	font-family: 'Arimo', sans-serif;	
-	font-size: 16px;
-	letter-spacing:1px;
-	line-height: 16pt;
+#quote {
+	  margin-left: 15%;
+	  margin-right: 15%;
+	  margin-top: 30px;
+	  margin-bottom: 30px;
+	 line-height: 17pt;
+	 letter-spacing:2px;
+	 font-style: italic;
 }
 
-#geschiedeniskolom1{
-	width: 350px;
-	margin-right:auto;
-    margin-left: auto;
-    margin-bottom: 20px;
-	font-family: 'Arimo', sans-serif;	
-	font-size: 16px;
+
+#kop {
+	font-size: 30px;
+	line-height: 30pt;
+	margin-top: 80px;
+	line-height: 28pt;
 	letter-spacing:1px;
-	line-height: 16pt;
-	float: left;
-}
-#geschiedeniskolom2{
-	width: 350px;
-	margin-right:auto;
-    margin-left: auto;
-    margin-bottom: 40px;
-	font-family: 'Arimo', sans-serif;	
-	font-size: 16px;
-	letter-spacing:1px;
-	line-height: 16pt;
-	float: left;
+	font-weight: bold;
 }
 
-.onderschrift{
-	width: 250px;
-	margin-top: 150px;
-	margin-left: 110px;
-	-webkit-transform: rotate(-90deg);
-	-moz-transform: rotate(-90deg);
-	-ms-transform: rotate(-90deg);
-	-o-transform: rotate(-90deg);
-	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-	position: absolute;
-	letter-spacing:1px;
-	font-size: 10px;
-	line-height: 10pt;
-}
-
-.onderschriftkolom1{
-	width: 250px;
-	margin-top: 167px;
-	margin-left: 110px;
-	-webkit-transform: rotate(-90deg);
-	-moz-transform: rotate(-90deg);
-	-ms-transform: rotate(-90deg);
-	-o-transform: rotate(-90deg);
-	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-	position: absolute;
-	letter-spacing:1px;
-	font-size: 10px;
-	line-height: 10pt;
-}
-
-.onderschriftkolom2{
-	width: 280px;
-	margin-top: 167px;
-	margin-left: 280px;
-	-webkit-transform: rotate(-90deg);
-	-moz-transform: rotate(-90deg);
-	-ms-transform: rotate(-90deg);
-	-o-transform: rotate(-90deg);
-	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-	position: absolute;
-	letter-spacing:1px;
-	font-size: 10px;
-	line-height: 10pt;
-}
 
 #footnote{
-	width: 700px;
+	width: 100%;
 	margin-right:auto;
     margin-left: auto;
     margin-bottom: 20px;
+     margin-top: 20px;
 	font-family: 'Arimo', sans-serif;	
 	font-size: 14px;
 	letter-spacing:1px;
@@ -298,9 +272,9 @@ position: fixed;
 top: 15px;
 text-align: right;
 right: 15px;
-width: 150px;
-font-size: 10px;
-line-height: 10pt;
+width: 180px;
+font-size: 14px;
+line-height: 14pt;
 letter-spacing: 0.04em;
 padding-left: 15px;
 }
@@ -318,259 +292,22 @@ letter-spacing: 0.04em;
 padding-left: 15px;
 }
 
-	.makeMeDraggable1 { 
-		width: 250px;
-		height: 302px;
-		margin-left: auto;	
-		margin-right: auto;	
-		margin-top: 25px;	
-		margin-bottom: 25px;
-		background-image: url("images/1.jpg");
-		background-repeat: no-repeat;
-		position: related;
-		cursor: pointer;
-		
-	 }
-	 
-	 .makeMeDraggable2 { 
-		width: 700px;
-		margin-left: auto;	
-		margin-right: auto;	
-		background-image: url("");
-		background-repeat: no-repeat;
-		position: related;
-		
-	 }
-	 
-	 .makeMeDraggable3 { 
-		width: 220px;
-		height: 300px;
-		margin-top: 25px;	
-		margin-bottom: 25px;
-		background-image: url("http://kabk.github.io/govt-theses-16-john-van-der-meule/images/Braque_fruit.jpg");
-		background-repeat: no-repeat;
-		position: related;
-		
-	 }
-	 
-	  .makeMeDraggable4 { 
-		width: 398px;
-		height: 300px;
-		margin-left: -70px;	
-		margin-top: 25px;	
-		margin-bottom: 25px;
-		background-image: url("http://kabk.github.io/govt-theses-16-john-van-der-meule/images/Picasso_chair.jpg");
-		background-repeat: no-repeat;
-		position: related;
-		
-	 }
-
-
-
-
-
-
-	 
-	 .makeMeDraggable5 { 
-		width: 568px;
-		height: 427px;
-		margin-top: -325px;	
-		margin-left: 750px;	
-		background-image: url("images/multi/1.png");
-		background-repeat: no-repeat;
-		position: relative;
-		
-	 }
-	 
-	  .makeMeDraggable6 { 
-		width: 632px;
-		height: 335px;
-		margin-left: 10px;	
-		margin-top: 25px;	
-		background-image: url("images/multi/2.png");
-		background-repeat: no-repeat;
-		position: relative;
-		
-	 }
-	 
-	 .makeMeDraggable7 { 
-		width: 142px;
-		height: 256px;
-		margin-left: 300px;	
-		margin-top: -100px;	
-		background-image: url("images/multi/3.png");
-		background-repeat: no-repeat;
-		position: relative;
-		
-	 }
-	 
-	 .makeMeDraggable8 { 
-		width: 158px;
-		height: 314px;
-		margin-left: 600px;	
-		margin-top: -750px;	
-		background-image: url("images/multi/4.png");
-		background-repeat: no-repeat;
-		position: relative;
-		
-	 }
-	 
-	  .makeMeDraggable9 { 
-		width: 177px;
-		height: 164px;
-		margin-top: -225px;	
-		margin-left: 750px;	
-		background-image: url("images/multi/5.png");
-		background-repeat: no-repeat;
-		position: relative;
-		
-	 }
-	 
-	  .makeMeDraggable10 { 
-		width: 186px;
-		height: 268px;
-		margin-left: 10px;	
-		margin-top: 25px;	
-		background-image: url("images/multi/6.png");
-		background-repeat: no-repeat;
-		position: relative;
-		
-	 }
-	 
-	 .makeMeDraggable11 { 
-		width: 175px;
-		height: 246px;
-		margin-left: 700px;	
-		margin-top: -100px;	
-		background-image: url("images/multi/7.png");
-		background-repeat: no-repeat;
-		position: relative;
-		
-	 }
-	 
-	 .makeMeDraggable12 { 
-		width: 466px;
-		height: 404px;
-		margin-left: 800px;	
-		margin-top: -750px;	
-		background-image: url("images/multi/8.png");
-		background-repeat: no-repeat;
-		position: relative;
-		
-	 }
-	 
-	 .makeMeDraggable13 { 
-		width: 206px;
-		height: 217px;
-		margin-top: -525px;	
-		margin-left: 950px;	
-		background-image: url("images/multi/9.png");
-		background-repeat: no-repeat;
-		position: relative;
-		
-	 }
-	 
-	  .makeMeDraggable14 { 
-		width: 429px;
-		height: 466px;
-		margin-left: 200px;	
-		margin-top: -200px;	
-		background-image: url("images/multi/10.png");
-		background-repeat: no-repeat;
-		position: relative;
-		
-	 }
-	 
-	 .makeMeDraggable15 { 
-		width: 134px;
-		height: 134px;
-		margin-left: 300px;	
-		margin-top: -100px;	
-		background-image: url("images/multi/11.png");
-		background-repeat: no-repeat;
-		position: relative;
-		
-	 }
-	 
-	 .makeMeDraggable16 { 
-		width: 127px;
-		height: 128px;
-		margin-left: 600px;	
-		margin-top: -550px;	
-		background-image: url("images/multi/12.png");
-		background-repeat: no-repeat;
-		position: relative;
-		
-	 }
-	 
-	  .makeMeDraggable17 { 
-		width: 184px;
-		height: 223px;
-		margin-top: -225px;	
-		margin-left: 750px;	
-		background-image: url("images/multi/13.png");
-		background-repeat: no-repeat;
-		position: relative;
-		
-	 }
-	 
-	  .makeMeDraggable18 { 
-		width: 325px;
-		height: 237px;
-		margin-left: 10px;	
-		margin-top: -50px;	
-		background-image: url("images/multi/14.png");
-		background-repeat: no-repeat;
-		position: relative;
-		
-	 }
-	 
-	 .makeMeDraggable19 { 
-		width: 266px;
-		height: 106px;
-		margin-left: 300px;	
-		margin-top: 10px;	
-		background-image: url("images/multi/15.png");
-		background-repeat: no-repeat;
-		position: relative;
-		
-	 }
-	 
-	 .makeMeDraggable20 { 
-		width: 391px;
-		height: 454px;
-		margin-left: 250px;	
-		margin-top: -650px;	
-		background-image: url("images/multi/16.png");
-		background-repeat: no-repeat;
-		position: relative;
-		
-	 }
 	
 u2 { border-bottom: solid 2px #00ffcc;
 	
  }
-
-P { 
-	text-indent: 30px;
-	 }
-	 
-
-
-h1 {
-	font-size: 30px;
-	line-height: 28pt;
-
-	letter-spacing:1px;
-	text-align: center;
-
-}
+ 
+ b { background-color: #ffffff;
+	
+ }
 
 
 h2 {
 	font-size: 80px;
 	line-height: 68pt;
 	font-weight: normal;
+	margin-left: auto;	
+	margin-right: auto;	
 	letter-spacing:1px;
 	text-align: center;
 	margin-bottom: 20px;	
@@ -592,35 +329,230 @@ sup {
     font-size: smaller;
 }
 
-a:link {
-    color: #000000;
-    text-decoration: none;
+.bijschrift {
+	color: #898989;
+	width: 250px;
+	font-size: 10px;
+	line-height: 10pt;
+	margin-top: 0px;	
+	margin-left: 80%;	
+	margin-right: auto;	
+	
 }
 
-/* visited link */
-a:visited {
-    color: #000000;
-    text-decoration: none;
+.makeMeDraggable1 { 
+		width: 200px;
+		height: 125px;
+		margin-left: 30%;
+		margin-right: 30%;	
+		margin-top: -50px;	
+		margin-bottom: -50px;
+		background-image: url("images/eigenwerk/seaofdata1.jpg");
+		background-repeat: no-repeat;
+		position: related;
+		cursor: pointer;
+		
+	 }
+	 
+	 .makeMeDraggable2 { 
+		width: 200px;
+		height: 125px;
+		margin-left: 10%;	
+		margin-right: 60%;	
+		margin-top: -50px;	
+		margin-bottom: -50px;
+		background-image: url("images/eigenwerk/seaofdata2.jpg");
+		background-repeat: no-repeat;
+		position: related;
+		cursor: pointer;
+
+		
+	 }
+	 
+	 .makeMeDraggable3 { 
+		width: 200px;
+		height: 125px;
+		margin-top: -50px;	
+		margin-bottom: -50px;
+		margin-left: 50%;	
+		margin-right: 50%;
+		background-image: url("images/eigenwerk/seaofdata3.jpg");
+		background-repeat: no-repeat;
+		position: related;
+		cursor: pointer;
+
+	 }
+	 
+	  .makeMeDraggable4 { 
+		width: 145px;
+		height: 200px;
+		margin-top: -40px;	
+		margin-left: 10%;	
+		margin-right: 90%;
+		background-image: url("images/maria1.jpg");
+		background-repeat: no-repeat;
+		position: related;
+		cursor: pointer;
+
+	 }
+	 
+	
+	 
+	 .makeMeDraggable5 { 
+		width: 115px;
+		height: 200px;
+		margin-left: 30%;	
+		margin-right: 70%;
+		margin-top: -20px;	
+		margin-bottom: -50px;
+		background-image: url("images/maria2.jpg");
+		background-repeat: no-repeat;
+		position: related;
+		cursor: pointer;
+
+	 }
+
+.makeMeDraggable6 { 
+		width: 136px;
+		height: 200px;
+		margin-left: 50%;	
+		margin-right: 50%;	
+		margin-top: -295px;	
+		margin-bottom: -50px;
+		background-image: url("images/maria3.jpg");
+		background-repeat: no-repeat;
+		position: related;
+		cursor: pointer;
+
+	 }
+	 
+.makeMeDraggable7 { 
+		width: 137px;
+		height: 200px;
+		margin-left: 70%;	
+		margin-right: 30%;
+		margin-top: -150px;	
+		margin-bottom: -50px;
+		background-image: url("images/maria4.jpg");
+		background-repeat: no-repeat;
+		position: related;
+		cursor: pointer;
+
+	 }
+		 
+	 
+@media screen and (min-width: 700px) and (max-width: 1100px) {	
+	body, html {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-right: 40px;
+	padding-left: 40px;
+	}
+	
+	#sidetitle{
+	display: none;
+	}
+
+	#multicover{
+	display: none;
+	}
+
+	.menu{
+	font-size: 12px;
+	line-height: 12pt;
+	width: 150px;
+	}
+
+
+	h1 {
+	font-size: 20px;
+	line-height: 28pt;
+	letter-spacing:1px;
+	text-align: center;
+	margin-left: auto;	
+	margin-right: auto;	
 }
 
-/* mouse over link */
-a:hover {
-    color: #00ffcc;
-    text-decoration: none;
+
+h2 {
+	font-size: 80px;
+	line-height: 68pt;
+	font-weight: normal;
+	letter-spacing:1px;
+	margin-left: auto;	
+	margin-right: auto;	
+	text-align: center;
+	margin-bottom: 20px;	
 }
 
-/* selected link */
-a:active {
-    color: #000000;
-    text-decoration: none;
+h3 {
+	font-size: 16px;
+	width: 600px;
+	margin-left: auto;	
+	margin-right: auto;	
+	line-height: 18pt;
+	font-weight: bold;
+	letter-spacing:1px;
+	text-align: center;
 }
 
-::-moz-selection {
-    background-color: #00ffcc;
-    color: #000;
+sup { 
+    line-height: 6pt;
+    font-size: smaller;
 }
- 
-::selection {
-    background-color: #00ffcc;
-    color: #000;
+
+	.article{
+	width: 75%;
+	font-size: 14px;
+	line-height: 14pt;
+	}
+
+	
+	#footnote{
+	width: 90%;
+	margin-right:auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+	font-family: 'Arimo', sans-serif;	
+	font-size: 12px;
+	letter-spacing:1px;
+	line-height: 12pt;
+	
+	}
+
+
 }
+
+
+@media screen and (min-width: 300px) and (max-width: 700px) {	
+	 	body, html {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	
+	}
+	
+	#sidetitle{
+	display: none;
+	}
+
+	#multicover{
+	display: none;
+	}
+
+	.menu{
+	display: none;
+	}
+
+	.footer{
+	display: none;
+	}
+	
+	.article{
+	width: 90%;
+	font-size: 12px;
+	line-height: 12pt;
+	}
+	
+	 }
