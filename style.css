@@ -21,6 +21,8 @@ a:active {
     text-decoration: none;
 }
 
+
+
 ::-moz-selection {
     background-color: #00ffcc;
     color: #000;
@@ -486,7 +488,7 @@ sup {
 		width: 247px;
 		height: 350px;
 		margin-left: 20%;	
-		margin-right: 80%;
+		margin-right: 60%;
 		margin-top: -50px;	
 		margin-bottom: -180px;
 		background-image: url("images/eigenwerk/sky.jpg");
@@ -495,7 +497,172 @@ sup {
 		cursor: pointer;
 
 	 }
+	 
+	 .makeMeDraggable12 { 
+		width: 270px;
+		height: 270px;
+		margin-left: 10%;	
+		margin-right: 90%;
+		margin-top: -50px;	
+		margin-bottom: 0px;
+		background-image: url("images/wheel.jpg");
+		background-repeat: no-repeat;
+		position: related;
+		cursor: pointer;
+
+	 }
+	 
+	  .makeMeDraggable13 { 
+		width: 309px;
+		height: 270px;
+		margin-left: 45%;	
+		margin-right: 55%;
+		margin-top: -50px;	
+		margin-bottom: -10px;
+		background-image: url("images/fountain.jpg");
+		background-repeat: no-repeat;
+		position: related;
+		cursor: pointer;
+
+	 }
+	 
+	 .makeMeDraggable14 { 
+		width: 300px;
+		height: 208px;
+		margin-left: 0%;	
+		margin-right: 100%;
+		margin-top: 30px;	
+		margin-bottom: -10px;
+		background-image: url("images/lichtenstein1.jpg");
+		background-repeat: no-repeat;
+		position: related;
+		cursor: pointer;
+
+	 }
+	 
+	 .makeMeDraggable15 { 
+		width: 200px;
+		height: 192px;
+		margin-left: 30%;	
+		margin-right: 70%;
+		margin-top: -280px;	
+		margin-bottom: 0px;
+		background-image: url("images/lichtenstein2.jpg");
+		background-repeat: no-repeat;
+		position: related;
+		cursor: pointer;
+
+	 }
+	 
+	  .makeMeDraggable16 { 
+		width: 300px;
+		height: 226px;
+		margin-left: 55%;	
+		margin-right: 45%;
+		margin-top: -50px;	
+		margin-bottom: -75px;
+		background-image: url("images/lichtenstein3.jpg");
+		background-repeat: no-repeat;
+		position: related;
+		cursor: pointer;
+
+	 }
 		 
+	 .makeMeDraggable17 { 
+		width: 200px;
+		height: 264px;
+		margin-left: 20%;	
+		margin-right: 80%;
+		margin-top: -20px;	
+		margin-bottom: -100px;
+		background-image: url("images/sherrie1.jpg");
+		background-repeat: no-repeat;
+		position: related;
+		cursor: pointer;
+
+	 }
+	 
+	  .makeMeDraggable18 { 
+		width: 250px;
+		height: 329px;
+		margin-left: 55%;	
+		margin-right: 45%;
+		margin-top: -50px;	
+		margin-bottom: -120px;
+		background-image: url("images/sherrie2.jpg");
+		background-repeat: no-repeat;
+		position: related;
+		cursor: pointer;
+
+	 }
+	 
+	  .makeMeDraggable19 { 
+		width: 196px;
+		height: 250px;
+		margin-left: 5%;	
+		margin-right: 95%;
+		margin-top: 50px;	
+		margin-bottom: 0px;
+		background-image: url("images/prince1.jpg");
+		background-repeat: no-repeat;
+		position: related;
+		cursor: pointer;
+
+	 }
+	 
+	  .makeMeDraggable20 { 
+		width: 400px;
+		height: 267px;
+		margin-left: 55%;	
+		margin-right: 45%;
+		margin-top: -350px;	
+		margin-bottom: -10px;
+		background-image: url("images/prince2.jpg");
+		background-repeat: no-repeat;
+		position: related;
+		cursor: pointer;
+	 }
+	 
+	 .makeMeDraggable21 { 
+		width: 230px;
+		height: 144px;
+		margin-left: 0%;	
+		margin-right: 100%;
+		margin-top: 0px;	
+		margin-bottom: -10px;
+		background-image: url("images/eigenwerk/hart1.jpg");
+		background-repeat: no-repeat;
+		position: related;
+		cursor: pointer;
+
+	 }
+	 
+	  .makeMeDraggable22 { 
+		width: 230px;
+		height: 144px;
+		margin-left: 25%;	
+		margin-right: 75%;
+		margin-top: -70px;	
+		margin-bottom: 120px;
+		background-image: url("images/eigenwerk/hart2.jpg");
+		background-repeat: no-repeat;
+		position: related;
+		cursor: pointer;
+
+	 }
+	 
+	  .makeMeDraggable23 { 
+		width: 230px;
+		height: 144px;
+		margin-left: 55%;	
+		margin-right: 45%;
+		margin-top: -350px;	
+		margin-bottom: -10px;
+		background-image: url("images/eigenwerk/hart3.jpg");
+		background-repeat: no-repeat;
+		position: related;
+		cursor: pointer;
+	 }
 	 
 @media screen and (min-width: 700px) and (max-width: 1100px) {	
 	body, html {
