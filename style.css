@@ -35,8 +35,8 @@ a:active {
 
 
 ::-webkit-scrollbar {
-  width: 10px;
-  height: 10px;
+  width: 15px;
+  height: 15px;
 }
 ::-webkit-scrollbar-button {
   width: 24px;
@@ -69,8 +69,8 @@ a:active {
 }
 
 ::-o-scrollbar {
-  width: 10px;
-  height: 10px;
+  width: 15px;
+  height: 15px;
 }
 ::-o-scrollbar-button {
   width: 24px;
@@ -103,8 +103,8 @@ a:active {
 }
 
 ::-moz-scrollbar {
-  width: 10px;
-  height: 10px;
+ width: 15px;
+  height: 15px;
 }
 ::-moz-scrollbar-button {
   width: 24px;
@@ -136,7 +136,6 @@ a:active {
   background: transparent;
 }
 
-
 <!-- PRINT -->
 
 @media print {
@@ -151,26 +150,25 @@ a:active {
 .sidetitle{
     display: none;
     }
-
-
 }
-
 
 
 
 
 body, html {
-  height: 100%;
-  padding-top: 0px;
-margin-bottom: 0px;
-padding-right: 13%;
-padding-left: 13%;
+ 	height: 80%;
+  	margin-top: 45px;
+	margin-bottom: 0px;
+	padding-right: 0%;
+	padding-left: 35px;
 }
+
+
 
 #multicover{
 	height: 100%;
-	margin-top: -80px;
-	padding-top: 120px;
+	margin-top: 100px;
+	padding-top: 250px;
 	margin-bottom: 200px;
 	margin-right:auto;
     margin-left: auto;
@@ -179,49 +177,77 @@ padding-left: 13%;
 	letter-spacing:1px;
 	line-height: 16pt;
 }
+
 	 
-#sidetitel{
-	width: 520px;
-	height: 23px;
-	background-color: #00ffcc;
-	font-family: 'Arimo', sans-serif;
-	letter-spacing:1px;	
-  	margin-right:auto;
-    margin-left: auto;
-    text-align: center;
-	text-transform: uppercase;	
-	z-index : 0;
-}
-	 
-#titel{
-	width: 100%;
+.titel{
+	width: 55%;
+	margin-top: 100px;
 	margin-right:auto;
-    margin-left: auto;
-	font-family: 'Arimo', sans-serif;	
-	font-size: 16px;
-	letter-spacing:1px;
-	line-height: 16pt;
-	
+    margin-left: auto;	
+	font-family: 'Work Sans', sans-serif;	
+	letter-spacing:0px;
+	float: left;
 }
 
-	 
+.subtitel{
+	width: 25%;
+	margin-top: 250px;
+	margin-right:auto;
+    margin-left: auto;	
+    padding-left: 10%;	
+	font-family: 'Work Sans', sans-serif;	
+	float: left;
+}
 
-.article{
+.hoofdstuk{
 	width: 100%;
 	margin-top: -50px;
 	margin-right:auto;
     margin-left: auto;	
     margin-bottom: 80px;	
-	font-family: 'Arimo', sans-serif;	
+	font-family: 'Work Sans', sans-serif;
 	font-size: 16px;
 	letter-spacing:1px;
-	line-height: 16pt;
+	line-height: 18pt;
+}
+
+
+.inhoud{
+	width: 55%;
+	margin-top: -50px;
+	padding-top: 60px;
+	margin-right:auto;
+    margin-left: auto;	
+    margin-bottom: 80px;	
+	font-family: 'Work Sans', sans-serif;	
+	font-size: 16px;
+	letter-spacing:0px;
+	line-height: 18pt;
+	float: left;
+
+}
+
+
+.image{
+	width: 25%;
+	margin-top: 59px;
+    margin-left: 100px;	
+    margin-bottom: 80px;	
+	font-family: 'Work Sans', sans-serif;	
+	font-size: 16px;
+	letter-spacing:1px;
+	line-height: 18pt;	
+	float: left;
+	background-color: #bffff2;
+
 }
 
 .opsomming {
 	margin-top: 10px;
 	margin-bottom: 10px;
-	padding: 20px;
+	padding-top:10px;
+	padding-bottom: 10px;
+	margin-left: 10%;	
 	line-height: 18pt;
 }
 
@@ -245,7 +271,7 @@ padding-left: 13%;
 
 
 #kop {
-	font-size: 30px;
+	font-size: 31px;
 	line-height: 30pt;
 	margin-top: 80px;
 	line-height: 28pt;
@@ -259,8 +285,8 @@ padding-left: 13%;
 	margin-right:auto;
     margin-left: auto;
     margin-bottom: 20px;
-     margin-top: 20px;
-	font-family: 'Arimo', sans-serif;	
+    margin-top: 20px;
+	font-family: 'Work Sans', sans-serif;	
 	font-size: 14px;
 	letter-spacing:1px;
 	line-height: 14pt;
@@ -268,71 +294,104 @@ padding-left: 13%;
 }
 
 
-.menu{
-font-family: 'Arimo', sans-serif;	
-position: fixed;
-top: 15px;
-text-align: right;
-right: 15px;
-width: 180px;
-font-size: 14px;
-line-height: 14pt;
-letter-spacing: 0.04em;
-padding-left: 15px;
+#menu{
+	font-family: 'Work Sans', sans-serif;	
+	left: 60px;
+	position: fixed;
+    top: 0;
+    height: 45px;
+    z-index: 70;
+    width: 100%;
+    padding: 20;
+    background: white;
+ 
+}
+
+#menu li {
+    display: inline-block;
+    margin: 18px 9px 0px 18px;
+    text-align: left;
+    color: #000;
+    font-size: 13px;
+}
+
+#menu li.active {
+    border-bottom: solid;
+    border-width: 1px;
 }
 
 .footer{
-font-family: 'Arimo', sans-serif;	
-position: fixed;
-bottom: 15px;
-text-align: right;
-right: 15px;
-width: 250px;
-font-size: 10px;
-line-height: 10pt;
-letter-spacing: 0.04em;
-padding-left: 15px;
+	font-family: 'Work Sans', sans-serif;	
+	position: fixed;
+	bottom: 15px;
+	right: 15px;
+	text-align: right;
+	width: 250px;
+	font-size: 10px;
+	line-height: 10pt;
+	letter-spacing: 0.04em;
 }
 
-	
-u2 { border-bottom: solid 2px #00ffcc;
-	
- }
- 
- b { background-color: #ffffff;
-	
- }
+.footertitelbottom{
+	font-family: 'Work Sans', sans-serif;	
+	position: fixed;
+	bottom: 145px;
+	left: -90px;
+	text-align: left;
+	width: 250px;
+	font-size: 13px;
+	line-height: 10pt;
+	letter-spacing: 0.04em;
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.footertiteltop{
+	font-family: 'Work Sans', sans-serif;	
+	position: fixed;
+	top: 30px;
+	left: -240px;
+	text-align: left;
+	width: 550px;
+	font-size: 13px;
+	line-height: 10pt;
+	letter-spacing: 0.04em;
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
  
 h1 {
+	font-size: 130px;
+	line-height: 90pt;
+	font-weight: normal;
 	margin-left: auto;	
 	margin-right: auto;	
-	letter-spacing:1px;
 	text-align: center;
-	font-size: 30px;
-	line-height: 28pt;
 		
 }
 
 h2 {
-	font-size: 80px;
-	line-height: 68pt;
+	font-size: 30px;
+	line-height: 30pt;
 	font-weight: normal;
 	margin-left: auto;	
 	margin-right: auto;	
-	letter-spacing:1px;
 	text-align: center;
-	margin-bottom: 20px;	
 }
 
 h3 {
-	font-size: 16px;
-	width: 600px;
-	margin-left: auto;	
-	margin-right: auto;	
-	line-height: 18pt;
-	font-weight: bold;
-	letter-spacing:1px;
-	text-align: center;
+	font-size: 40px;
+	line-height: 40pt;
+	margin-bottom: 10px;
+	font-weight: normal;
+	margin-left: 10%;	
 }
 
 sup { 
@@ -350,330 +409,8 @@ sup {
 	margin-right: auto;	
 	
 }
-
-.makeMeDraggable1 { 
-		width: 200px;
-		height: 125px;
-		margin-left: 50%;
-		margin-right: 50%;	
-		margin-top: -50px;	
-		margin-bottom: -50px;
-		background-image: url("images/eigenwerk/seaofdata1.jpg");
-		background-repeat: no-repeat;
-		position: related;
-		cursor: pointer;
-		
-	 }
 	 
-	 .makeMeDraggable2 { 
-		width: 200px;
-		height: 125px;
-		margin-left: 10%;	
-		margin-right: 60%;	
-		margin-top: -50px;	
-		margin-bottom: -50px;
-		background-image: url("images/eigenwerk/seaofdata2.jpg");
-		background-repeat: no-repeat;
-		position: related;
-		cursor: pointer;
-
-		
-	 }
-	 
-	 .makeMeDraggable3 { 
-		width: 200px;
-		height: 125px;
-		margin-top: -50px;	
-		margin-bottom: -50px;
-		margin-left: 50%;	
-		margin-right: 50%;
-		background-image: url("images/eigenwerk/seaofdata3.jpg");
-		background-repeat: no-repeat;
-		position: related;
-		cursor: pointer;
-
-	 }
-	 
-	  .makeMeDraggable4 { 
-		width: 145px;
-		height: 200px;
-		margin-top: -40px;	
-		margin-left: 10%;	
-		margin-right: 90%;
-		background-image: url("images/maria1.jpg");
-		background-repeat: no-repeat;
-		position: related;
-		cursor: pointer;
-
-	 }
-	 
-	
-	 
-	 .makeMeDraggable5 { 
-		width: 115px;
-		height: 200px;
-		margin-left: 30%;	
-		margin-right: 70%;
-		margin-top: -20px;	
-		margin-bottom: -50px;
-		background-image: url("images/maria2.jpg");
-		background-repeat: no-repeat;
-		position: related;
-		cursor: pointer;
-
-	 }
-
-.makeMeDraggable6 { 
-		width: 136px;
-		height: 200px;
-		margin-left: 50%;	
-		margin-right: 50%;	
-		margin-top: -295px;	
-		margin-bottom: -50px;
-		background-image: url("images/maria3.jpg");
-		background-repeat: no-repeat;
-		position: related;
-		cursor: pointer;
-
-	 }
-	 
-.makeMeDraggable7 { 
-		width: 137px;
-		height: 200px;
-		margin-left: 70%;	
-		margin-right: 30%;
-		margin-top: -150px;	
-		margin-bottom: -50px;
-		background-image: url("images/maria4.jpg");
-		background-repeat: no-repeat;
-		position: related;
-		cursor: pointer;
-
-	 }
-	 
-	 .makeMeDraggable8 { 
-		width: 220px;
-		height: 300px;
-		margin-left: 20%;	
-		margin-right: 80%;
-		margin-top: -50px;	
-		margin-bottom: -50px;
-		background-image: url("images/braque.jpg");
-		background-repeat: no-repeat;
-		position: related;
-		cursor: pointer;
-
-	 }
-	 
-	 .makeMeDraggable9 { 
-		width: 388px;
-		height: 300px;
-		margin-left: 40%;	
-		margin-right: 60%;
-		margin-top: -120px;	
-		margin-bottom: -50px;
-		background-image: url("images/picasso.jpg");
-		background-repeat: no-repeat;
-		position: related;
-		cursor: pointer;
-
-	 }
-	 
-	  .makeMeDraggable10 { 
-		width: 288px;
-		height: 400px;
-		margin-left: 40%;	
-		margin-right: 60%;
-		margin-top: -120px;	
-		margin-bottom: 0px;
-		background-image: url("images/heartfield.jpg");
-		background-repeat: no-repeat;
-		position: related;
-		cursor: pointer;
-
-	 }
-	 
-	  .makeMeDraggable11 { 
-		width: 247px;
-		height: 350px;
-		margin-left: 20%;	
-		margin-right: 60%;
-		margin-top: -50px;	
-		margin-bottom: -180px;
-		background-image: url("images/eigenwerk/sky.jpg");
-		background-repeat: no-repeat;
-		position: related;
-		cursor: pointer;
-
-	 }
-	 
-	 .makeMeDraggable12 { 
-		width: 270px;
-		height: 270px;
-		margin-left: 10%;	
-		margin-right: 90%;
-		margin-top: -50px;	
-		margin-bottom: 0px;
-		background-image: url("images/wheel.jpg");
-		background-repeat: no-repeat;
-		position: related;
-		cursor: pointer;
-
-	 }
-	 
-	  .makeMeDraggable13 { 
-		width: 309px;
-		height: 270px;
-		margin-left: 45%;	
-		margin-right: 55%;
-		margin-top: -50px;	
-		margin-bottom: -10px;
-		background-image: url("images/fountain.jpg");
-		background-repeat: no-repeat;
-		position: related;
-		cursor: pointer;
-
-	 }
-	 
-	 .makeMeDraggable14 { 
-		width: 300px;
-		height: 208px;
-		margin-left: 0%;	
-		margin-right: 100%;
-		margin-top: 30px;	
-		margin-bottom: -10px;
-		background-image: url("images/lichtenstein1.jpg");
-		background-repeat: no-repeat;
-		position: related;
-		cursor: pointer;
-
-	 }
-	 
-	 .makeMeDraggable15 { 
-		width: 200px;
-		height: 192px;
-		margin-left: 30%;	
-		margin-right: 70%;
-		margin-top: -280px;	
-		margin-bottom: 0px;
-		background-image: url("images/lichtenstein2.jpg");
-		background-repeat: no-repeat;
-		position: related;
-		cursor: pointer;
-
-	 }
-	 
-	  .makeMeDraggable16 { 
-		width: 300px;
-		height: 226px;
-		margin-left: 55%;	
-		margin-right: 45%;
-		margin-top: -50px;	
-		margin-bottom: -75px;
-		background-image: url("images/lichtenstein3.jpg");
-		background-repeat: no-repeat;
-		position: related;
-		cursor: pointer;
-
-	 }
-		 
-	 .makeMeDraggable17 { 
-		width: 200px;
-		height: 264px;
-		margin-left: 20%;	
-		margin-right: 80%;
-		margin-top: -20px;	
-		margin-bottom: -100px;
-		background-image: url("images/sherrie1.jpg");
-		background-repeat: no-repeat;
-		position: related;
-		cursor: pointer;
-
-	 }
-	 
-	  .makeMeDraggable18 { 
-		width: 250px;
-		height: 329px;
-		margin-left: 55%;	
-		margin-right: 45%;
-		margin-top: -50px;	
-		margin-bottom: -120px;
-		background-image: url("images/sherrie2.jpg");
-		background-repeat: no-repeat;
-		position: related;
-		cursor: pointer;
-
-	 }
-	 
-	  .makeMeDraggable19 { 
-		width: 196px;
-		height: 250px;
-		margin-left: 5%;	
-		margin-right: 95%;
-		margin-top: 50px;	
-		margin-bottom: 0px;
-		background-image: url("images/prince1.jpg");
-		background-repeat: no-repeat;
-		position: related;
-		cursor: pointer;
-
-	 }
-	 
-	  .makeMeDraggable20 { 
-		width: 400px;
-		height: 267px;
-		margin-left: 55%;	
-		margin-right: 45%;
-		margin-top: -350px;	
-		margin-bottom: -10px;
-		background-image: url("images/prince2.jpg");
-		background-repeat: no-repeat;
-		position: related;
-		cursor: pointer;
-	 }
-	 
-	 .makeMeDraggable21 { 
-		width: 230px;
-		height: 144px;
-		margin-left: 0%;	
-		margin-right: 100%;
-		margin-top: 0px;	
-		margin-bottom: -10px;
-		background-image: url("images/eigenwerk/hart1.jpg");
-		background-repeat: no-repeat;
-		position: related;
-		cursor: pointer;
-
-	 }
-	 
-	  .makeMeDraggable22 { 
-		width: 230px;
-		height: 144px;
-		margin-left: 25%;	
-		margin-right: 75%;
-		margin-top: -70px;	
-		margin-bottom: 120px;
-		background-image: url("images/eigenwerk/hart2.jpg");
-		background-repeat: no-repeat;
-		position: related;
-		cursor: pointer;
-
-	 }
-	 
-	  .makeMeDraggable23 { 
-		width: 230px;
-		height: 144px;
-		margin-left: 55%;	
-		margin-right: 45%;
-		margin-top: -350px;	
-		margin-bottom: -10px;
-		background-image: url("images/eigenwerk/hart3.jpg");
-		background-repeat: no-repeat;
-		position: related;
-		cursor: pointer;
-	 }
-	 
-@media screen and (min-width: 865px) and (max-width: 1100px) {	
+@media screen and (min-width: 865px) and (max-width: 1290px) {	
 	body, html {
 	padding-top: 40px;
 	padding-bottom: 40px;
@@ -690,10 +427,31 @@ sup {
 	}
 
 	.menu{
-	font-size: 12px;
-	line-height: 12pt;
-	width: 150px;
-	}
+	font-family: 'Arimo', sans-serif;	
+	left:0;
+	text-align: center;
+	position: fixed;
+    top: 0;
+    height: 45px;
+    z-index: 70;
+    width: 100%;
+    padding: 0;
+    background: white;
+ 
+}
+
+.menu li {
+    display: inline-block;
+    margin: 15px 0px 0px 10px;
+    text-align: left;
+    color: #000;
+    font-size: 10px;
+}
+
+.menu li.active {
+    border-bottom: solid;
+    border-width: 1px;
+}
 
 
 	h1 {
@@ -786,330 +544,7 @@ sup {
 	font-size: 12px;
 	line-height: 12pt;
 	}
-	
-	.makeMeDraggable1 { 
-		width: 200px;
-		height: 125px;
-		margin-left: auto;	
-	margin-right: auto;	
-		margin-top: 0px;	
-		margin-bottom: 0px;
-		background-image: url("images/eigenwerk/seaofdata1.jpg");
-		background-repeat: no-repeat;
-		position: related;
-		cursor: pointer;
-		
-	 }
-	 
-	 .makeMeDraggable2 { 
-		width: 200px;
-		height: 125px;
-	margin-left: auto;	
-	margin-right: auto;	
-		margin-top: 0px;	
-		margin-bottom: 0px;
-		background-image: url("images/eigenwerk/seaofdata2.jpg");
-		background-repeat: no-repeat;
-		position: related;
-		cursor: pointer;
-
-		
-	 }
-	 
-	 .makeMeDraggable3 { 
-		width: 200px;
-		height: 125px;
-	margin-left: auto;	
-	margin-right: auto;	
-		margin-top: 0px;	
-		margin-bottom: 0px;
-		background-image: url("images/eigenwerk/seaofdata3.jpg");
-		background-repeat: no-repeat;
-		position: related;
-		cursor: pointer;
-
-	 }
-	 
-	  .makeMeDraggable4 { 
-		width: 145px;
-		height: 200px;
-		margin-left: auto;	
-	margin-right: auto;		
-		margin-top: 0px;	
-		margin-bottom: 0px;
-		background-image: url("images/maria1.jpg");
-		background-repeat: no-repeat;
-		position: related;
-		cursor: pointer;
-
-	 }
-	 
-	
-	 
-	 .makeMeDraggable5 { 
-		width: 115px;
-		height: 200px;
-		margin-left: auto;	
-	margin-right: auto;	
-		margin-top: 0px;	
-		margin-bottom: 0px;
-		background-image: url("images/maria2.jpg");
-		background-repeat: no-repeat;
-		position: related;
-		cursor: pointer;
-
-	 }
-
-.makeMeDraggable6 { 
-		width: 136px;
-		height: 200px;
-		margin-left: auto;	
-	margin-right: auto;	
-		margin-top: 0px;	
-		margin-bottom: 0px;
-		background-image: url("images/maria3.jpg");
-		background-repeat: no-repeat;
-		position: related;
-		cursor: pointer;
-
-	 }
-	 
-.makeMeDraggable7 { 
-		width: 137px;
-		height: 200px;
-		margin-left: auto;	
-	margin-right: auto;	
-		margin-top: 0px;	
-		margin-bottom: 0px;
-		background-image: url("images/maria4.jpg");
-		background-repeat: no-repeat;
-		position: related;
-		cursor: pointer;
-
-	 }
-	 
-	 .makeMeDraggable8 { 
-		width: 220px;
-		height: 300px;
-		margin-left: auto;	
-	margin-right: auto;	
-		margin-top: 0px;	
-		margin-bottom: 0px;
-		background-image: url("images/braque.jpg");
-		background-repeat: no-repeat;
-		position: related;
-		cursor: pointer;
-
-	 }
-	 
-	 .makeMeDraggable9 { 
-		width: 388px;
-		height: 300px;
-	margin-left: auto;	
-	margin-right: auto;	
-		margin-top: 0px;	
-		margin-bottom: 0px;
-		background-image: url("images/picasso.jpg");
-		background-repeat: no-repeat;
-		position: related;
-		cursor: pointer;
-
-	 }
-	 
-	  .makeMeDraggable10 { 
-		width: 288px;
-		height: 400px;
-	margin-left: auto;	
-	margin-right: auto;	
-		margin-top: 0px;	
-		margin-bottom: 0px;
-		background-image: url("images/heartfield.jpg");
-		background-repeat: no-repeat;
-		position: related;
-		cursor: pointer;
-
-	 }
-	 
-	  .makeMeDraggable11 { 
-		width: 247px;
-		height: 350px;
-		margin-left: auto;	
-	margin-right: auto;	
-		margin-top: 0px;	
-		margin-bottom: 0px;
-		background-image: url("images/eigenwerk/sky.jpg");
-		background-repeat: no-repeat;
-		position: related;
-		cursor: pointer;
-
-	 }
-	 
-	 .makeMeDraggable12 { 
-		width: 270px;
-		height: 270px;
-		margin-left: auto;	
-	margin-right: auto;		
-		margin-top: 0px;	
-		margin-bottom: 0px;
-		background-image: url("images/wheel.jpg");
-		background-repeat: no-repeat;
-		position: related;
-		cursor: pointer;
-
-	 }
-	 
-	  .makeMeDraggable13 { 
-		width: 309px;
-		height: 270px;
-		margin-left: auto;	
-	margin-right: auto;	
-		margin-top: 0px;	
-		margin-bottom: 0px;
-		background-image: url("images/fountain.jpg");
-		background-repeat: no-repeat;
-		position: related;
-		cursor: pointer;
-
-	 }
-	 
-	 .makeMeDraggable14 { 
-		width: 300px;
-		height: 208px;
-		margin-left: auto;	
-	margin-right: auto;	
-		margin-top: 0px;	
-		margin-bottom: 0px;
-		background-image: url("images/lichtenstein1.jpg");
-		background-repeat: no-repeat;
-		position: related;
-		cursor: pointer;
-
-	 }
-	 
-	 .makeMeDraggable15 { 
-		width: 200px;
-		height: 192px;
-	margin-left: auto;	
-	margin-right: auto;	
-		margin-top: 0px;	
-		margin-bottom: 0px;
-		background-image: url("images/lichtenstein2.jpg");
-		background-repeat: no-repeat;
-		position: related;
-		cursor: pointer;
-
-	 }
-	 
-	  .makeMeDraggable16 { 
-		width: 300px;
-		height: 226px;
-		margin-left: auto;	
-	margin-right: auto;	
-		margin-top: 0px;	
-		margin-bottom: 0px;
-		background-image: url("images/lichtenstein3.jpg");
-		background-repeat: no-repeat;
-		position: related;
-		cursor: pointer;
-
-	 }
 		 
-	 .makeMeDraggable17 { 
-		width: 200px;
-		height: 264px;
-		margin-left: auto;	
-	margin-right: auto;		
-		margin-top: 0px;	
-		margin-bottom: 0px;
-		background-image: url("images/sherrie1.jpg");
-		background-repeat: no-repeat;
-		position: related;
-		cursor: pointer;
-
-	 }
-	 
-	  .makeMeDraggable18 { 
-		width: 250px;
-		height: 329px;
-		margin-left: auto;	
-	margin-right: auto;		
-		margin-top: 0px;	
-		margin-bottom: 0px;
-		background-image: url("images/sherrie2.jpg");
-		background-repeat: no-repeat;
-		position: related;
-		cursor: pointer;
-
-	 }
-	 
-	  .makeMeDraggable19 { 
-		width: 196px;
-		height: 250px;
-		margin-left: auto;	
-	margin-right: auto;		
-		margin-top: 0px;	
-		margin-bottom: 0px;
-		background-image: url("images/prince1.jpg");
-		background-repeat: no-repeat;
-		position: related;
-		cursor: pointer;
-
-	 }
-	 
-	  .makeMeDraggable20 { 
-		width: 400px;
-		height: 267px;
-		margin-left: auto;	
-	margin-right: auto;		
-		margin-top: 0px;	
-		margin-bottom: 0px;
-		background-image: url("images/prince2.jpg");
-		background-repeat: no-repeat;
-		position: related;
-		cursor: pointer;
-	 }
-	 
-	 .makeMeDraggable21 { 
-		width: 230px;
-		height: 144px;
-		margin-left: auto;	
-	margin-right: auto;	
-		margin-top: 0px;	
-		margin-bottom: 0px;
-		background-image: url("images/eigenwerk/hart1.jpg");
-		background-repeat: no-repeat;
-		position: related;
-		cursor: pointer;
-
-	 }
-	 
-	  .makeMeDraggable22 { 
-		width: 230px;
-		height: 144px;
-		margin-left: auto;	
-	margin-right: auto;		
-		margin-top: 0px;	
-		margin-bottom: 0px;
-		background-image: url("images/eigenwerk/hart2.jpg");
-		background-repeat: no-repeat;
-		position: related;
-		cursor: pointer;
-
-	 }
-	 
-	  .makeMeDraggable23 { 
-		width: 230px;
-		height: 144px;
-		margin-left: auto;	
-	margin-right: auto;	
-		margin-top: 0px;	
-		margin-bottom: 0px;
-		background-image: url("images/eigenwerk/hart3.jpg");
-		background-repeat: no-repeat;
-		position: related;
-		cursor: pointer;
-	 }
-	 
 	 .bijschrift {
 	color: #898989;
 	width: 250px;
