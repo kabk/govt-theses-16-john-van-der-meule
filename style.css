@@ -211,6 +211,19 @@ body, html {
 	line-height: 18pt;
 }
 
+.hoofdstuktitel{
+	width: 55%;
+	margin-top: -50px;
+	margin-left: 5%;
+	padding-top: 60px;
+	font-size: 40px;
+	line-height: 40pt;
+	margin-bottom: 10px;
+	font-weight: normal;
+	float: left;
+
+}
+
 
 .inhoud{
 	width: 55%;
@@ -260,8 +273,7 @@ body, html {
 }
 
 #quote {
-	  margin-left: 15%;
-	  margin-right: 15%;
+	  margin-left: 10%;
 	  margin-top: 30px;
 	  margin-bottom: 30px;
 	 line-height: 17pt;
@@ -269,6 +281,10 @@ body, html {
 	 font-style: italic;
 }
 
+u {
+	margin-left: 10%;
+	margin-top: 50px;
+	}
 
 #kop {
 	font-size: 31px;
@@ -386,13 +402,7 @@ h2 {
 	text-align: center;
 }
 
-h3 {
-	font-size: 40px;
-	line-height: 40pt;
-	margin-bottom: 10px;
-	font-weight: normal;
-	margin-left: 10%;	
-}
+
 
 sup { 
     line-height: 10pt;
@@ -401,12 +411,8 @@ sup {
 
 .bijschrift {
 	color: #898989;
-	width: 250px;
 	font-size: 10px;
 	line-height: 10pt;
-	margin-top: 0px;	
-	margin-left: 80%;	
-	margin-right: auto;	
 	
 }
 	 
