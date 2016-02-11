@@ -243,7 +243,7 @@ body, html {
 
 .image{
 	width: 25%;
-	margin-top: 59px;
+	margin-top: 50px;
     margin-left: 100px;	
     margin-bottom: 80px;	
 	font-family: 'Work Sans', sans-serif;	
@@ -251,8 +251,6 @@ body, html {
 	letter-spacing:1px;
 	line-height: 18pt;	
 	float: left;
-	background-color: #bffff2;
-
 }
 
 .opsomming {
@@ -331,10 +329,7 @@ u {
     font-size: 13px;
 }
 
-#menu li.active {
-    border-bottom: solid;
-    border-width: 1px;
-}
+
 
 .footer{
 	font-family: 'Work Sans', sans-serif;	
