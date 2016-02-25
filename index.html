@@ -44,6 +44,23 @@
 				 
 				</script>
 				
+				<!-- SELECT TEXT-->
+
+				 <script type=”text/javascript”>
+				function selectText(containerid) {
+				window.getSelection().removeAllRanges();
+				if (document.selection) {
+				var range = document.body.createTextRange();
+				range.moveToElementText(document.getElementById(containerid));
+				range.select();
+				} else if (window.getSelection) {
+				var range = document.createRange();
+				range.selectNode(document.getElementById(containerid));
+				window.getSelection().addRange(range);
+				}
+				}
+				</script>
+
 				<!-- SCROLL SNELHEID-->
 				<script type="text/javascript">
 				$(document).ready(function(){
@@ -86,7 +103,7 @@
 					<li><a href="#menu0" name="m0">Homepage</a></li>
 					<li><a href="#menu1" name="m1">Voorwoord</a></li>
 					<li><a href="#menu2" name="m2">Inleiding</a></li>
-					<li><a href="#menu3" >De mens als kopieermachine</a></li>
+					<li><a href="#menu3" name="m3"> De mens als kopieermachine</a></li>
 					<li><a href="#menu4" name="m4">Geschiedenis vol kopieën en reproducties</a></li>
 					<li><a href="#menu5" name="m5">Remix cultuur</a></li>
 					<li><a href="#menu6" name="m6">Conclusie</a></li>
@@ -129,22 +146,21 @@
 			
 		
 <div class="hoofdstuk">
-<a name="menu1"></a>
 
-<div class="hoofdstuktitel">
+<div class="hoofdstuktitel" id="menu1">
 Voorwoord
 </div>
 
-	<div class="inhoud">
+	<div class="inhoud" onclick="selectText('inhoud')">
 		
 <p>Een onderwerp kiezen voor mijn afstudeerscriptie was toch iets moeilijker dan dat ik voor ogen had. Want waar wil je uiteindelijk jouw eigen visie op geven of een statement maken om dit vervolgens in een afstudeerproject te verwerken? Er ligt een hele lijst aan onderwerpen klaar die zijn behandeld bij verschillende opdrachten in de les. Maar er kan ook iets voortkomen vanuit een interesse of juist vanuit een drang naar iets wat nog niet behandeld is. Er zijn keuzes zat maar wat kies je? Een klein en onschuldig onderwerp of een zwaar beladen onderwerp? Ik ben begonnen met het reflecteren van mijn eigen werk van de afgelopen vier jaar op de academie. Tijdens deze reflectie ben ik gaan kijken naar wat ik interessant vond aan een bepaald onderwerp. Hierbij heb ik gekeken naar het proces en de uitkomst van zo’n project. Daarnaast heb ik gekeken waar ik mij eventueel nog meer in wil gaan verdiepen om vervolgens mijn mening hier over te kunnen geven.</p><p>Uiteindelijk kwam ik verschillende projecten tegen waarbij ik een bepaalde boodschap wilde overbrengen, hierbij heb ik bestaande elementen gebruikt. Ik heb afbeeldingen uit tijdschriften gebruikt, om ze vervolgens te vergroten en in een fanzine te verwerken, die alleen maar uit collages bestond. Dit deed ik om mijn visuele gedachtegang te ontwikkelen. Ik heb een documentaire over het internet gemaakt waarbij ik alleen maar found footage materiaal heb gebruikt dat van YouTube en Vimeo kwam. Door het verzamelen van materiaal was de impact van het internet nog heftiger, want het internet wordt inmiddels overal gebruikt. Ook heb ik een hele publicatie gevuld met alleen maar afbeeldingen van technologische producten die niet vergeten mogen worden. Door alles te archiveren in een publicatie gebeurd dit niet. De afbeeldingen waren allemaal afkomstig van Google. </p><p>Nadat ik tot de conclusie ben gekomen dat ik vaak gebruik maak van bestaande elementen in mijn werk, heb ik er over na gedacht wat de rol is van deze werkwijze. Net zoals ik gebruiken vele andere studenten ook bestaande elementen om vervolgens te verwerken in werk. Kopiëren zit ingebakken in ons systeem. Via het internet hebben we alles binnen handbereik en maken daar ook gebruik van. Het is tijd om te laten zien waar het vandaan komt, hoe het is toegepast en waar het naartoe gaat in de toekomst. Als rode draad in mijn scriptie bespreek ik mijn eigen werk zodat ik in de conclusie deze kan vergelijken met andere case studies.</p><p>Ik wil ook alvast de mensen bedanken die mij hebben geholpen en hebben gesteund gedurende het traject van mijn scriptie. Dat zijn Marjan Brandsma en Dirk Vis voor de begeleiding. Diverse klasgenoten waarmee ik kon praten over mijn onderwerp. En mijn vrienden, Marije van der A en Bram van der Maarl, die mijn scriptie hebben gelezen ter controle. </p></div>
 </div>
 
 
 <div class="hoofdstuk">
-<a name="menu2"></a>
 
-<div class="hoofdstuktitel">
+
+<div class="hoofdstuktitel" id="menu2">
 Inleiding
 </div>
 
@@ -161,12 +177,11 @@ Inleiding
 </div>
 
 </div>
-
+https://github.com/kabk/govt-theses-16-john-van-der-meule/archive/gh-pages.zip
 
 <div class="hoofdstuk">
-<a name="menu3"></a>
 
-<div class="hoofdstuktitel">
+<div class="hoofdstuktitel" id="menu3">
 1.<Br> De mens als kopieermachine
 </div>
 	<div class="inhoud">
@@ -276,14 +291,13 @@ Inleiding
 </div>
 
 <div class="hoofdstuk">
-<a name="menu7"></a>
 
-<div class="hoofdstuktitel">
+
+<div class="hoofdstuktitel" id="menu7">
 Voetnoten
 </div>
 
 	<div class="inhoud">
-	<h3>Voetnoten</h3>
 <div id="footnote">
 		1. De Bruin, E. “Nadoen helpt”, <a href="http://vorige.nrc.nl/krant/article1638545.ece" target="blank">(url)</a><a name="fn1" href="#fr1"> ↩</a><br>
 		
