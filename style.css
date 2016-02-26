@@ -465,7 +465,7 @@ sup {
 	 	body, html {
 	margin-top: 45px;
 	margin-bottom: 0px;
-	padding-right: 0%;
+	padding-right: 5px;
 	padding-left: 15px;
 	
 	}
@@ -595,7 +595,7 @@ h2 {
 }
 
 .hoofdstuktitel{
-	width: 95%;
+	width: 100%;
 	margin-left: 5%;
 	padding-top: 80px;
 	font-size: 20px;
@@ -606,7 +606,7 @@ h2 {
 }
 
 .inhoud	{
-	width: 95%;
+	width: 100%;
 	padding-top: 20px;
 	margin-right:auto;
     margin-left: auto;	
@@ -619,7 +619,7 @@ h2 {
 }
 
 #inhoud1{
-	width: 95%;
+	width: 100%;
 	padding-top: 20px;
 	background-image: url("images/multi/10.png");
 	background-repeat: no-repeat;	
@@ -633,7 +633,7 @@ h2 {
 }
 
 #inhoud2{
-	width: 95%;
+	width: 100%;
 	padding-top: 20px;	
 	background-image: url("images/multi/3.png");
 	background-repeat: no-repeat;
@@ -646,7 +646,7 @@ h2 {
 }
 
 #inhoud3{
-	width: 95%;
+	width: 100%;
 	padding-top: 20px;	
 	background-image: url("images/multi/8.png");
 	background-repeat: no-repeat;
@@ -659,7 +659,7 @@ h2 {
 }
 
 #inhoud4{
-	width: 95%;
+	width: 100%;
 	padding-top: 20px;	
 	background-image: url("images/multi/5.png");
 	background-repeat: no-repeat;
@@ -672,7 +672,7 @@ h2 {
 }
 
 #inhoud5{
-	width: 95%;
+	width: 100%;
 	padding-top: 20px;	
 	background-image: url("images/multi/9.png");
 	background-repeat: no-repeat;
@@ -686,8 +686,10 @@ h2 {
 
 
 .image{
-	width: 50%;
+	width: 100%;
 	margin-top: 0px;	
+	margin-left: auto;
+	margin-right: auto;
     margin-bottom: 40px;	
 	font-family: 'Work Sans', sans-serif;	
 	font-size: 16px;
@@ -696,9 +698,7 @@ h2 {
 	float: left;
 }
 
-img{
-	width: 100%;
-}
+
 
 
 
