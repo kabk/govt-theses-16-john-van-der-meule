@@ -10,12 +10,26 @@
 				<link href='https://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic' rel='stylesheet' type='text/css'> 
 				<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,500,700,800' rel='stylesheet' type='text/css'>
 				              
-				<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
-				<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
+				<script type="text/javascript" src="jquery.min.js"></script>
+				<script type="text/javascript" src="jquery-ui.min.js"></script>
 				
-				<script src="../jquery.custom-scrollbar.js"></script>
-    			<link type="text/css" rel="stylesheet" href="../jquery.custom-scrollbar.css"/>
-				 
+				
+				 	
+				 	<!-- SELECT TEXT-->
+
+				 <script type="text/javascript">
+    function selectText(containerid) {
+        if (document.selection) {
+            var range = document.body.createTextRange();
+            range.moveToElementText(document.getElementById(containerid));
+            range.select();
+        } else if (window.getSelection) {
+            var range = document.createRange();
+            range.selectNode(document.getElementById(containerid));
+            window.getSelection().addRange(range);
+        }
+    }
+				</script>
 
 				<!-- BEWEGENDE PLAATJES-->
 				<script type="text/javascript">
@@ -44,22 +58,7 @@
 				 
 				</script>
 				
-				<!-- SELECT TEXT-->
-
-				 <script type=”text/javascript”>
-				function selectText(containerid) {
-				window.getSelection().removeAllRanges();
-				if (document.selection) {
-				var range = document.body.createTextRange();
-				range.moveToElementText(document.getElementById(containerid));
-				range.select();
-				} else if (window.getSelection) {
-				var range = document.createRange();
-				range.selectNode(document.getElementById(containerid));
-				window.getSelection().addRange(range);
-				}
-				}
-				</script>
+			
 
 				<!-- SCROLL SNELHEID-->
 				<script type="text/javascript">
@@ -81,8 +80,7 @@
 				});
 				</script>
 
-
-
+			
 
 
                    
@@ -91,7 +89,7 @@
                     <meta name="description" content="Het gebruik van bestaande elementen" />
                     <meta property="og:title" content="Een nieuw verhaal - het gebruik van bestaande elementen" />
                     
-                    <meta property="og:image" content="http://kabk.github.io/govt-theses-16-john-van-der-meule/images/albert_1.jpg" />
+                    <meta property="og:image" content="http://kabk.github.io/govt-theses-16-john-van-der-meule/images/nieuwverhaal.jpg" />
                     
                     <meta property="dc:creator" content="John van der Meule" />
                     
@@ -151,7 +149,7 @@
 Voorwoord
 </div>
 
-	<div class="inhoud" onclick="selectText('inhoud')">
+	<div id="inhoud1" onclick="selectText('inhoud1')">
 		
 <p>Een onderwerp kiezen voor mijn afstudeerscriptie was toch iets moeilijker dan dat ik voor ogen had. Want waar wil je uiteindelijk jouw eigen visie op geven of een statement maken om dit vervolgens in een afstudeerproject te verwerken? Er ligt een hele lijst aan onderwerpen klaar die zijn behandeld bij verschillende opdrachten in de les. Maar er kan ook iets voortkomen vanuit een interesse of juist vanuit een drang naar iets wat nog niet behandeld is. Er zijn keuzes zat maar wat kies je? Een klein en onschuldig onderwerp of een zwaar beladen onderwerp? Ik ben begonnen met het reflecteren van mijn eigen werk van de afgelopen vier jaar op de academie. Tijdens deze reflectie ben ik gaan kijken naar wat ik interessant vond aan een bepaald onderwerp. Hierbij heb ik gekeken naar het proces en de uitkomst van zo’n project. Daarnaast heb ik gekeken waar ik mij eventueel nog meer in wil gaan verdiepen om vervolgens mijn mening hier over te kunnen geven.</p><p>Uiteindelijk kwam ik verschillende projecten tegen waarbij ik een bepaalde boodschap wilde overbrengen, hierbij heb ik bestaande elementen gebruikt. Ik heb afbeeldingen uit tijdschriften gebruikt, om ze vervolgens te vergroten en in een fanzine te verwerken, die alleen maar uit collages bestond. Dit deed ik om mijn visuele gedachtegang te ontwikkelen. Ik heb een documentaire over het internet gemaakt waarbij ik alleen maar found footage materiaal heb gebruikt dat van YouTube en Vimeo kwam. Door het verzamelen van materiaal was de impact van het internet nog heftiger, want het internet wordt inmiddels overal gebruikt. Ook heb ik een hele publicatie gevuld met alleen maar afbeeldingen van technologische producten die niet vergeten mogen worden. Door alles te archiveren in een publicatie gebeurd dit niet. De afbeeldingen waren allemaal afkomstig van Google. </p><p>Nadat ik tot de conclusie ben gekomen dat ik vaak gebruik maak van bestaande elementen in mijn werk, heb ik er over na gedacht wat de rol is van deze werkwijze. Net zoals ik gebruiken vele andere studenten ook bestaande elementen om vervolgens te verwerken in werk. Kopiëren zit ingebakken in ons systeem. Via het internet hebben we alles binnen handbereik en maken daar ook gebruik van. Het is tijd om te laten zien waar het vandaan komt, hoe het is toegepast en waar het naartoe gaat in de toekomst. Als rode draad in mijn scriptie bespreek ik mijn eigen werk zodat ik in de conclusie deze kan vergelijken met andere case studies.</p><p>Ik wil ook alvast de mensen bedanken die mij hebben geholpen en hebben gesteund gedurende het traject van mijn scriptie. Dat zijn Marjan Brandsma en Dirk Vis voor de begeleiding. Diverse klasgenoten waarmee ik kon praten over mijn onderwerp. En mijn vrienden, Marije van der A en Bram van der Maarl, die mijn scriptie hebben gelezen ter controle. </p></div>
 </div>
@@ -164,9 +162,9 @@ Voorwoord
 Inleiding
 </div>
 
-	<div class="inhoud">
+	<div id="inhoud2" onclick="selectText('inhoud2')">
 		
-<p>Omdat ik persoonlijk geïnteresseerd ben in de collagetechniek ben ik me gaan verdiepen in dit fenomeen. Het idee dat je van bestaand materiaal iets kan hergebruiken fascineert mij. Door middel van een simpele handeling, bijvoorbeeld door twee foto’s naast elkaar te plaatsen, krijg je een hele nieuwe context. Er kan een sfeer worden gecreëerd zonder dat dit letterlijk wordt weergegeven. De kijker moet hierdoor beter gaan kijken naar het werk om het vervolgens zelf met andere dingen te associëren.</p><p>Wanneer ik terug kijk in de kunstgeschiedenis, valt mij op dat er al eeuwen lang gebruik wordt gemaakt wordt van bestaande elementen. Schilderijen worden nageschilderd, bestaande objecten worden gepresenteerd als kunst en een nieuw werk ontstaat door bepaalde afbeeldingen samen te voegen. Al dit soort handelingen zou je kunnen onderverdelen in de volgende termen:</p><div class="opsomming">Een <b>kopie</b> is iets dat precies zo gemaakt is als iets dat al bestaat.<br><b>Kopiëren</b> is het maken van een <B>duplicaat</b> van het origineel.<br>Een <b>duplicaat</b> is een identiek tweede exemplaar van iets.<br><br>
+<p>Omdat ik persoonlijk geïnteresseerd ben in de collagetechniek ben ik me gaan verdiepen in dit fenomeen. Het idee dat je van bestaand materiaal iets kan hergebruiken fascineert mij. Door middel van een simpele handeling, bijvoorbeeld door twee foto’s naast elkaar te plaatsen, krijg je een hele nieuwe context. Er kan een sfeer worden gecreëerd zonder dat dit letterlijk wordt weergegeven. De kijker moet hierdoor beter gaan kijken naar het werk om het vervolgens zelf met andere dingen te associëren.</p><p>Wanneer ik terug kijk in de kunstgeschiedenis, valt mij op dat er al eeuwen lang gebruik wordt gemaakt wordt van bestaande elementen. Schilderijen worden nageschilderd, bestaande objecten worden gepresenteerd als kunst en een nieuw werk ontstaat door bepaalde afbeeldingen samen te voegen. Al dit soort handelingen zou je kunnen onderverdelen in de volgende termen:</p><div class="quote">Een <b>kopie</b> is iets dat precies zo gemaakt is als iets dat al bestaat.<br><b>Kopiëren</b> is het maken van een <B>duplicaat</b> van het origineel.<br>Een <b>duplicaat</b> is een identiek tweede exemplaar van iets.<br><br>
 <b>Parodie</b> is een spottende nabootsing.<br><b>Pastiche</b> is een <b>parodie</b> waarbij alleen wordt gekeken naar vorm die zo dicht tegen het  origineel aan licht, dat de kijker in verwarring raakt.<br>Een getrouw mogelijke <b>nabootsing</b> van een kunstwerk wordt een <b>reproductie</b> genoemd.<br>Bij <b>nabootsing</b> spreken we van <b>imitatie</b>, iets nadoen.<br>Een <b>imitatie</b> is iets dat zo gemaakt is dat het op iets anders lijkt.<br><br>
 Een eerbetoon om waardering aan iemand te geven noemen we <b>hommage.</b><br><br>
 <B>Citeren</b> is een stukje tekst van een ander stuk letterlijk overnemen.<br><br>
@@ -184,12 +182,11 @@ https://github.com/kabk/govt-theses-16-john-van-der-meule/archive/gh-pages.zip
 <div class="hoofdstuktitel" id="menu3">
 1.<Br> De mens als kopieermachine
 </div>
-	<div class="inhoud">
-		
+<div id="inhoud3" onclick="selectText('inhoud3')">		
 
 <p>Een kunstwerk, of het nou een poster of een schilderij is, wordt altijd door een mens geproduceerd. Als je naar het menselijk gedrag kijkt zie je dat we in het dagelijkse leven ook vaak andere mensen onbewust nadoen, we imiteren ze. Het imiteren wordt in de sociale psychologie ook wel minicry<a href="#fn1" name="fr1"><sup>1</sup></a>  genoemd. Mensen imiteren elkaar door bepaalde zenuwcellen, genaamd spiegelneuronen. Dit is dezelfde term die wordt gebruikt in de biologie bij bijvoorbeeld dieren. Dieren die in kleur of vorm de omgeving nabootsen om minder op te vallen zodat zij niet gezien worden door hun vijanden. Het is een reactie op een bepaalde prikkel. Deze spiegelneuronen zorgen ervoor dat we de bewegingen die we zien in ons hoofd nadoen. De manier waarop we iets of iemand nadoen kan onbewust gaan. Wanneer je bijvoorbeeld gaapt, zal een andere persoon in de buurt met je mee gapen. In een gesprek neem je elkaars accent over, elkaars stopwoordjes, elkaars spreektempo en gezichtsuitdrukkingen. Het geeft een gevoel van saamhorigheid en je lijkt elkaar beter te begrijpen.</p>
 
-<div id="quote">''Imitatie is iets motorisch, maar je kunt bijvoorbeeld ook een gevoel van gelijkheid ervaren als je een mening met iemand deelt. Of als je tot dezelfde groep behoort.'' — Rick van Baaren, sociaal psycholoog</div>
+<div class="quote"><i>''Imitatie is iets motorisch, maar je kunt bijvoorbeeld ook een gevoel van gelijkheid ervaren als je een mening met iemand deelt. Of als je tot dezelfde groep behoort.'' — Rick van Baaren, sociaal psycholoog</i></div>
 
 <p>Het imiteren van mensen is compleet normaal en word zelfs als natuurlijk gezien. Je hebt vast wel eens zo’n situatie meegemaakt waarbij je in een nieuw restaurant zit en iets overheerlijks ruikt. Je kijkt om je heen en uiteindelijk zie je het gerecht wat iemand in de buurt aan het eten is waaraan je die geur kunt koppelen. Ondertussen zit je te watertanden en ben je nieuwsgierig naar de smaak van dat gerecht. Dus je vraagt aan de serveerster wat voor een gerecht dat is en bestelt precies hetzelfde. Bewust imiteer je het gedrag van de persoon die dat gerecht zat te eten. </p>
 
@@ -212,7 +209,7 @@ https://github.com/kabk/govt-theses-16-john-van-der-meule/archive/gh-pages.zip
 2.<Br> Geschiedenis vol kopieën en reproducties
 </div>
 
-	<div class="inhoud">
+<div id="inhoud4" onclick="selectText('inhoud4')">
 <p>Al zolang we ons kunnen herinneren worden er in de traditie van de kunst dingen nagebootst. Er wordt vaak verwezen naar kunst uit eerdere periodes. Zoals de beeldhouwwerken van de oude Grieken die werden gekopieerd door de Romeinen. Omdat zij een grote waardering en fascinatie hadden voor deze beelden, lieten ze deze naar Rome verplaatsen. Veel hiervan zijn uiteindelijk tijdens het verschepen verloren gegaan. Omdat mensen het zich niet altijd konden veroorloven om een origineel beeld te kopen, werd er een kopie van gemaakt. Doordat er zoveel originele Griekse beelden zijn vergaan is de kennis over deze beelden vooral gebaseerd op de Romeinse kopieën en imitaties.<a href="#fn2" name="fr2"><sup>2</sup></a></p>
 
 <p>In de Griekse filosofie komt de term <i>mimesis</i> veel voor, dit betekent imitatie en werd ook wel de mimesis-theorie genoemd. Volgens deze theorie is een kunstwerk al een imitatie van de werkelijkheid. De filosoof die deze term heeft bedacht en gebruikte was Plato. Hij vond dat kunst niet al te veel gewaardeerd moest worden. Volgens Plato is er een ‘ideeënwereld’ waar allerlei ideaalbeelden zijn van alles wat op aarde te vinden is.<a href="#fn3" name="fr3"><sup>3</sup></a>  Zo bestaan er duizenden soorten kasten, met verschillende formaten, kleuren, materiaal ect. Maar in de ideeënwereld bestaat er maar één kast. De perfecte kast wordt ook wel de idee-kast genoemd. Hierdoor zijn alle kasten op de aarde minderwaardig ten opzichte van de idee-kast, omdat ze slechts een kopie zijn van de idee-kast. Wanneer een kast wordt opgenomen in bijvoorbeeld een schilderij wordt dit gezien als een kopie van een kopie. </p>

@@ -1,15 +1,4 @@
-/* klik select */
 
-::-moz-selection {
-    background-color: #00ffcc;
-    color: #000;
-}
- 
-::selection {
-    background-color: #00ffcc;
-    color: #000;
-}
-/* klik select eind*/
 
 
 a:link {
@@ -34,7 +23,6 @@ a:active {
     color: #000000;
     text-decoration: none;
 }
-
 
 
 ::-moz-selection {
@@ -169,6 +157,21 @@ a:active {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 body, html {
  	height: 80%;
   	margin-top: 45px;
@@ -238,8 +241,7 @@ body, html {
 
 }
 
-
-.inhoud{
+.inhoud	{
 	width: 55%;
 	margin-top: -50px;
 	padding-top: 60px;
@@ -251,7 +253,69 @@ body, html {
 	letter-spacing:0px;
 	line-height: 18pt;
 	float: left;
+}
 
+#inhoud1{
+	width: 55%;
+	margin-top: -50px;
+	padding-top: 60px;	
+    margin-bottom: 80px;	
+	font-family: 'Work Sans', sans-serif;	
+	font-size: 16px;
+	letter-spacing:0px;
+	line-height: 18pt;
+	float: left;
+	
+}
+
+#inhoud2{
+	width: 55%;
+	margin-top: -50px;
+	padding-top: 60px;	
+    margin-bottom: 80px;	
+	font-family: 'Work Sans', sans-serif;	
+	font-size: 16px;
+	letter-spacing:0px;
+	line-height: 18pt;
+	float: left;
+}
+
+#inhoud3{
+	width: 55%;
+	margin-top: -50px;
+	padding-top: 60px;	
+    margin-bottom: 80px;	
+	font-family: 'Work Sans', sans-serif;	
+	font-size: 16px;
+	letter-spacing:0px;
+	line-height: 18pt;
+	float: left;
+}
+
+#inhoud4{
+	width: 55%;
+	margin-top: -50px;
+	padding-top: 60px;	
+    margin-bottom: 80px;	
+	font-family: 'Work Sans', sans-serif;	
+	font-size: 16px;
+	letter-spacing:0px;
+	line-height: 18pt;
+	float: left;
+}
+
+#inhoud5{
+	width: 55%;
+	margin-top: -50px;
+	padding-top: 60px;
+	margin-right:auto;
+    margin-left: auto;	
+    margin-bottom: 80px;	
+	font-family: 'Work Sans', sans-serif;	
+	font-size: 16px;
+	letter-spacing:0px;
+	line-height: 18pt;
+	float: left;
 }
 
 
@@ -267,13 +331,13 @@ body, html {
 	float: left;
 }
 
-.opsomming {
-	margin-top: 10px;
-	margin-bottom: 10px;
-	padding-top:10px;
-	padding-bottom: 10px;
-	margin-left: 10%;	
-	line-height: 18pt;
+.quote {
+	margin-left: 10%;
+	  margin-top: 30px;
+	  margin-bottom: 30px;
+	 line-height: 17pt;
+	 letter-spacing:2px;
+	
 }
 
 .eigenwerk {
@@ -284,28 +348,11 @@ body, html {
 	line-height: 18pt;
 }
 
-#quote {
-	  margin-left: 10%;
-	  margin-top: 30px;
-	  margin-bottom: 30px;
-	 line-height: 17pt;
-	 letter-spacing:2px;
-	 font-style: italic;
-}
 
 u {
 	margin-left: 10%;
 	margin-top: 50px;
 	}
-
-#kop {
-	font-size: 31px;
-	line-height: 30pt;
-	margin-top: 80px;
-	line-height: 28pt;
-	letter-spacing:1px;
-	font-weight: bold;
-}
 
 
 #footnote{
@@ -424,6 +471,40 @@ sup {
 	line-height: 10pt;
 	
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* klik select */
+
+::-moz-selection {
+    background-color: #00ffcc;
+    color: #000;
+}
+ 
+::selection {
+    background-color: #00ffcc;
+    color: #000;
+}
+/* klik select eind*/
 	 
 @media screen and (min-width: 865px) and (max-width: 1290px) {	
 	body, html {
