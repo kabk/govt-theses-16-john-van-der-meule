@@ -504,7 +504,7 @@ sup {
 	margin-left: 5%;
 	padding-top: 80px;
 	font-size: 20px;
-	line-height: 40pt;
+	line-height: 22pt;
 	font-weight: normal;
 	float: left;
 
@@ -512,11 +512,10 @@ sup {
 
 .inhoud	{
 	width: 55%;
-	
-	padding-top: 60px;
+	padding-top: 20px;
 	margin-right:auto;
     margin-left: auto;	
-    margin-bottom: 80px;	
+    margin-bottom: 40px;	
 	font-family: 'Work Sans', sans-serif;	
 	font-size: 11px;
 	letter-spacing:0px;
@@ -526,8 +525,8 @@ sup {
 
 #inhoud1{
 	width: 55%;
-	padding-top: 50px;	
-    margin-bottom: 80px;	
+	padding-top: 20px;	
+    margin-bottom: 40px;	
 	font-family: 'Work Sans', sans-serif;	
 	font-size: 12px;
 	letter-spacing:0px;
@@ -538,8 +537,8 @@ sup {
 
 #inhoud2{
 	width: 55%;
-	padding-top: 50px;	
-    margin-bottom: 80px;	
+	padding-top: 20px;	
+    margin-bottom: 40px;	
 	font-family: 'Work Sans', sans-serif;	
 	font-size: 11px;
 	letter-spacing:0px;
@@ -549,8 +548,8 @@ sup {
 
 #inhoud3{
 	width: 55%;
-	padding-top: 50px;	
-    margin-bottom: 80px;	
+	padding-top: 20px;	
+    margin-bottom: 40px;	
 	font-family: 'Work Sans', sans-serif;	
 	font-size: 11px;
 	letter-spacing:0px;
@@ -560,8 +559,8 @@ sup {
 
 #inhoud4{
 	width: 55%;
-	padding-top: 50px;		
-    margin-bottom: 80px;	
+	padding-top: 20px;		
+    margin-bottom: 40px;	
 	font-family: 'Work Sans', sans-serif;	
 	font-size: 11px;
 	letter-spacing:0px;
@@ -571,7 +570,7 @@ sup {
 
 #inhoud5{
 	width: 55%;
-	padding-top: 50px;	
+	padding-top: 20px;	
     margin-bottom: 80px;	
 	font-family: 'Work Sans', sans-serif;	
 	font-size: 11px;
@@ -585,7 +584,7 @@ sup {
 	width: 20%;
 	margin-top: 0px;
     margin-left: 100px;	
-    margin-bottom: 80px;	
+    margin-bottom: 40px;	
 	font-family: 'Work Sans', sans-serif;	
 	font-size: 16px;
 	letter-spacing:1px;
