@@ -500,7 +500,7 @@ sup {
 }
 
 .hoofdstuktitel{
-	width: 55%;
+	width: 75%;
 	margin-left: 5%;
 	padding-top: 80px;
 	font-size: 20px;
@@ -511,7 +511,7 @@ sup {
 }
 
 .inhoud	{
-	width: 55%;
+	width: 75%;
 	padding-top: 20px;
 	margin-right:auto;
     margin-left: auto;	
@@ -524,7 +524,7 @@ sup {
 }
 
 #inhoud1{
-	width: 55%;
+	width: 75%;
 	padding-top: 20px;	
     margin-bottom: 40px;	
 	font-family: 'Work Sans', sans-serif;	
@@ -536,7 +536,7 @@ sup {
 }
 
 #inhoud2{
-	width: 55%;
+	width: 75%;
 	padding-top: 20px;	
     margin-bottom: 40px;	
 	font-family: 'Work Sans', sans-serif;	
@@ -547,7 +547,7 @@ sup {
 }
 
 #inhoud3{
-	width: 55%;
+	width: 75%;
 	padding-top: 20px;	
     margin-bottom: 40px;	
 	font-family: 'Work Sans', sans-serif;	
@@ -558,7 +558,7 @@ sup {
 }
 
 #inhoud4{
-	width: 55%;
+	width: 75%;
 	padding-top: 20px;		
     margin-bottom: 40px;	
 	font-family: 'Work Sans', sans-serif;	
@@ -569,7 +569,7 @@ sup {
 }
 
 #inhoud5{
-	width: 55%;
+	width: 75%;
 	padding-top: 20px;	
     margin-bottom: 80px;	
 	font-family: 'Work Sans', sans-serif;	
@@ -581,7 +581,7 @@ sup {
 
 
 .image{
-	width: 20%;
+	width: 5%;
 	margin-top: 0px;
     margin-left: 100px;	
     margin-bottom: 40px;	
