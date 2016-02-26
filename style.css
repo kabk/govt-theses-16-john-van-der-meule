@@ -90,12 +90,10 @@ body, html {
 
 .hoofdstuktitel{
 	width: 55%;
-	margin-top: -50px;
 	margin-left: 5%;
-	padding-top: 60px;
+	padding-top: 20px;
 	font-size: 40px;
 	line-height: 40pt;
-	margin-bottom: 10px;
 	font-weight: normal;
 	float: left;
 
@@ -103,7 +101,7 @@ body, html {
 
 .inhoud	{
 	width: 55%;
-	margin-top: -50px;
+	
 	padding-top: 60px;
 	margin-right:auto;
     margin-left: auto;	
@@ -117,8 +115,7 @@ body, html {
 
 #inhoud1{
 	width: 55%;
-	margin-top: -50px;
-	padding-top: 60px;	
+	padding-top: 50px;	
     margin-bottom: 80px;	
 	font-family: 'Work Sans', sans-serif;	
 	font-size: 16px;
@@ -130,8 +127,7 @@ body, html {
 
 #inhoud2{
 	width: 55%;
-	margin-top: -50px;
-	padding-top: 60px;	
+	padding-top: 50px;	
     margin-bottom: 80px;	
 	font-family: 'Work Sans', sans-serif;	
 	font-size: 16px;
@@ -142,8 +138,7 @@ body, html {
 
 #inhoud3{
 	width: 55%;
-	margin-top: -50px;
-	padding-top: 60px;	
+	padding-top: 50px;	
     margin-bottom: 80px;	
 	font-family: 'Work Sans', sans-serif;	
 	font-size: 16px;
@@ -154,8 +149,7 @@ body, html {
 
 #inhoud4{
 	width: 55%;
-	margin-top: -50px;
-	padding-top: 60px;	
+	padding-top: 50px;		
     margin-bottom: 80px;	
 	font-family: 'Work Sans', sans-serif;	
 	font-size: 16px;
@@ -166,10 +160,7 @@ body, html {
 
 #inhoud5{
 	width: 55%;
-	margin-top: -50px;
-	padding-top: 60px;
-	margin-right:auto;
-    margin-left: auto;	
+	padding-top: 50px;	
     margin-bottom: 80px;	
 	font-family: 'Work Sans', sans-serif;	
 	font-size: 16px;
@@ -180,8 +171,8 @@ body, html {
 
 
 .image{
-	width: 25%;
-	margin-top: 50px;
+	width: 20%;
+	margin-top: 0px;
     margin-left: 100px;	
     margin-bottom: 80px;	
 	font-family: 'Work Sans', sans-serif;	
@@ -193,8 +184,9 @@ body, html {
 
 img{
 	width: 100%;
-	
 }
+
+
 
 .quote {
 	margin-left: 10%;
