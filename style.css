@@ -466,7 +466,7 @@ sup {
 	margin-top: 45px;
 	margin-bottom: 0px;
 	padding-right: 0%;
-	padding-left: 35px;
+	padding-left: 15px;
 	
 	}
 	
@@ -608,5 +608,38 @@ img{
 	
 }
 
+.footertitelbottom{
+	font-family: 'Work Sans', sans-serif;	
+	position: fixed;
+	bottom: 145px;
+	left: -70px;
+	text-align: left;
+	width: 250px;
+	font-size: 13px;
+	line-height: 10pt;
+	letter-spacing: 0.04em;
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.footertiteltop{
+	font-family: 'Work Sans', sans-serif;	
+	position: fixed;
+	top: 170px;
+	left: -220px;
+	text-align: left;
+	width: 550px;
+	font-size: 13px;
+	line-height: 10pt;
+	letter-spacing: 0.04em;
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
 	 
 	 }
