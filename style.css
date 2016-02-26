@@ -367,32 +367,6 @@ sup {
 	padding-left: 35px;
 	}
 	
-.makeMeDraggable107 { 
-		width: 466px;
-		height: 404px;
-		margin-left: 40%;	
-		margin-right: 60%;
-		margin-top: -750px;	
-		background-image: url("images/multi/8.png");
-		background-repeat: no-repeat;
-		position: relative;
-				cursor: pointer;
-
-	 }
-	 
-	   .makeMeDraggable109 { 
-		width: 429px;
-		height: 466px;
-		margin-left: 40%;	
-		margin-right: 60%;	
-		margin-top: 0px;	
-		background-image: url("images/multi/10.png");
-		background-repeat: no-repeat;
-		position: relative;
-				cursor: pointer;
-
-	 }
-
 	.menu{
 	font-family: 'Arimo', sans-serif;	
 	left:0;
@@ -512,22 +486,127 @@ sup {
 	display: none;
 	}
 	
-	.article{
-	width: 90%;
-	font-size: 12px;
-	line-height: 12pt;
-	}
-		 
-	 .bijschrift {
-	color: #898989;
-	width: 250px;
-	font-size: 10px;
-	line-height: 10pt;
-	margin-top: 0px;	
-	margin-left: auto;	
-	margin-right: auto;	
-	text-align: center;
+	
+.hoofdstuk{
+	width: 100%;
+	margin-top: -50px;
+	margin-right:auto;
+    margin-left: auto;	
+    margin-bottom: 80px;	
+	font-family: 'Work Sans', sans-serif;
+	font-size: 16px;
+	letter-spacing:1px;
+	line-height: 18pt;
+}
+
+.hoofdstuktitel{
+	width: 55%;
+	margin-left: 5%;
+	padding-top: 80px;
+	font-size: 40px;
+	line-height: 40pt;
+	font-weight: normal;
+	float: left;
+
+}
+
+.inhoud	{
+	width: 55%;
+	
+	padding-top: 60px;
+	margin-right:auto;
+    margin-left: auto;	
+    margin-bottom: 80px;	
+	font-family: 'Work Sans', sans-serif;	
+	font-size: 16px;
+	letter-spacing:0px;
+	line-height: 18pt;
+	float: left;
+}
+
+#inhoud1{
+	width: 55%;
+	padding-top: 50px;	
+    margin-bottom: 80px;	
+	font-family: 'Work Sans', sans-serif;	
+	font-size: 16px;
+	letter-spacing:0px;
+	line-height: 18pt;
+	float: left;
 	
 }
+
+#inhoud2{
+	width: 55%;
+	padding-top: 50px;	
+    margin-bottom: 80px;	
+	font-family: 'Work Sans', sans-serif;	
+	font-size: 16px;
+	letter-spacing:0px;
+	line-height: 18pt;
+	float: left;
+}
+
+#inhoud3{
+	width: 55%;
+	padding-top: 50px;	
+    margin-bottom: 80px;	
+	font-family: 'Work Sans', sans-serif;	
+	font-size: 16px;
+	letter-spacing:0px;
+	line-height: 18pt;
+	float: left;
+}
+
+#inhoud4{
+	width: 55%;
+	padding-top: 50px;		
+    margin-bottom: 80px;	
+	font-family: 'Work Sans', sans-serif;	
+	font-size: 16px;
+	letter-spacing:0px;
+	line-height: 18pt;
+	float: left;
+}
+
+#inhoud5{
+	width: 55%;
+	padding-top: 50px;	
+    margin-bottom: 80px;	
+	font-family: 'Work Sans', sans-serif;	
+	font-size: 16px;
+	letter-spacing:0px;
+	line-height: 18pt;
+	float: left;
+}
+
+
+.image{
+	width: 20%;
+	margin-top: 0px;
+    margin-left: 100px;	
+    margin-bottom: 80px;	
+	font-family: 'Work Sans', sans-serif;	
+	font-size: 16px;
+	letter-spacing:1px;
+	line-height: 18pt;	
+	float: left;
+}
+
+img{
+	width: 100%;
+}
+
+
+
+.quote {
+	margin-left: 10%;
+	  margin-top: 30px;
+	  margin-bottom: 30px;
+	 line-height: 17pt;
+	 letter-spacing:2px;
+	
+}
+
 	 
 	 }
