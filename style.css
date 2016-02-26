@@ -470,9 +470,26 @@ sup {
 	
 	}
 	
-	#sidetitle{
-	display: none;
-	}
+	.titel{
+	width: 100%;
+	margin-top: 40px;
+	margin-right:auto;
+    margin-left: auto;	
+	font-family: 'Work Sans', sans-serif;	
+	letter-spacing:0px;
+	clear: both;
+}
+
+.subtitel{
+	width: 80%;
+	margin-right:auto;
+	margin-top: 0px;
+    margin-left: auto;	
+    margin-bottom: 50px;
+	font-family: 'Work Sans', sans-serif;	
+	clear: both;
+}
+	
 
 	#multicover{
 	display: none;
@@ -497,8 +514,8 @@ sup {
 }
 
 h2 {
-	font-size: 20px;
-	line-height: 21pt;
+	font-size: 15px;
+	line-height: 18pt;
 	font-weight: normal;
 	margin-left: auto;	
 	margin-right: auto;	
@@ -599,9 +616,8 @@ h2 {
 
 
 .image{
-	width: 5%;
-	margin-top: 0px;
-    margin-left: 100px;	
+	width: 50%;
+	margin-top: 0px;	
     margin-bottom: 40px;	
 	font-family: 'Work Sans', sans-serif;	
 	font-size: 16px;
@@ -645,7 +661,7 @@ img{
 .footertiteltop{
 	font-family: 'Work Sans', sans-serif;	
 	position: fixed;
-	top: 80px;
+	top: 120px;
 	left: -255px;
 	text-align: left;
 	width: 550px;
