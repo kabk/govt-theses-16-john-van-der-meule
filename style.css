@@ -466,7 +466,7 @@ sup {
 	margin-top: 45px;
 	margin-bottom: 0px;
 	padding-right: 5px;
-	padding-left: 15px;
+	padding-left: 16px;
 	
 	}
 	
@@ -607,9 +607,7 @@ h2 {
 
 .inhoud	{
 	width: 100%;
-	padding-top: 20px;
-	margin-right:auto;
-    margin-left: auto;	
+	padding-top: 20px;	
     margin-bottom: 40px;	
 	font-family: 'Work Sans', sans-serif;	
 	font-size: 11px;
@@ -625,7 +623,7 @@ h2 {
 	background-repeat: no-repeat;	
     margin-bottom: 40px;	
 	font-family: 'Work Sans', sans-serif;	
-	font-size: 12px;
+	font-size: 11px;
 	letter-spacing:0px;
 	line-height: 12pt;
 	float: left;
@@ -698,7 +696,18 @@ h2 {
 	float: left;
 }
 
-
+#footnote{
+	width: 100%;
+	margin-right:auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+	font-family: 'Work Sans', sans-serif;	
+	font-size: 11px;
+	letter-spacing:0px;
+	line-height: 12pt;
+	
+}
 
 
 
@@ -706,8 +715,9 @@ h2 {
 	margin-left: 10%;
 	  margin-top: 30px;
 	  margin-bottom: 30px;
-	 line-height: 12pt;
-	 letter-spacing:1px;
+	  font-size: 11px;
+	letter-spacing:0px;
+	line-height: 12pt;
 	
 }
 
