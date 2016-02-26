@@ -1,7 +1,11 @@
 <!-- PRINT -->
 
 @media print {
-   .menu {
+   #menu {
+    display: none;
+    }
+    
+    #menu li {
     display: none;
     }
 
@@ -12,6 +16,9 @@
 .sidetitle{
     display: none;
     }
+    
+
+  
 }
 
 
@@ -91,7 +98,7 @@ body, html {
 .hoofdstuktitel{
 	width: 55%;
 	margin-left: 5%;
-	padding-top: 20px;
+	padding-top: 80px;
 	font-size: 40px;
 	line-height: 40pt;
 	font-weight: normal;
@@ -350,34 +357,41 @@ sup {
 
 
 
-/* klik select */
 
-::-moz-selection {
-    background-color: #00ffcc;
-    color: #000;
-}
- 
-::selection {
-    background-color: #00ffcc;
-    color: #000;
-}
-/* klik select eind*/
 	 
-@media screen and (min-width: 865px) and (max-width: 1290px) {	
+@media screen and (min-width: 360px) and (max-width: 1290px) {	
 	body, html {
-	padding-top: 40px;
-	padding-bottom: 40px;
-	padding-right: 40px;
-	padding-left: 40px;
+	margin-top: 45px;
+	margin-bottom: 0px;
+	padding-right: 0%;
+	padding-left: 35px;
 	}
 	
-	#sidetitle{
-	display: none;
-	}
+.makeMeDraggable107 { 
+		width: 466px;
+		height: 404px;
+		margin-left: 40%;	
+		margin-right: 60%;
+		margin-top: -750px;	
+		background-image: url("images/multi/8.png");
+		background-repeat: no-repeat;
+		position: relative;
+				cursor: pointer;
 
-	#multicover{
-	display: none;
-	}
+	 }
+	 
+	   .makeMeDraggable109 { 
+		width: 429px;
+		height: 466px;
+		margin-left: 40%;	
+		margin-right: 60%;	
+		margin-top: 0px;	
+		background-image: url("images/multi/10.png");
+		background-repeat: no-repeat;
+		position: relative;
+				cursor: pointer;
+
+	 }
 
 	.menu{
 	font-family: 'Arimo', sans-serif;	
@@ -408,24 +422,22 @@ sup {
 
 
 	h1 {
-	font-size: 20px;
-	line-height: 28pt;
-	letter-spacing:1px;
-	text-align: center;
+	font-size: 130px;
+	line-height: 90pt;
+	font-weight: normal;
 	margin-left: auto;	
 	margin-right: auto;	
+	text-align: center;
+		
 }
 
-
 h2 {
-	font-size: 80px;
-	line-height: 68pt;
+	font-size: 30px;
+	line-height: 30pt;
 	font-weight: normal;
-	letter-spacing:1px;
 	margin-left: auto;	
 	margin-right: auto;	
 	text-align: center;
-	margin-bottom: 20px;	
 }
 
 h3 {
@@ -467,12 +479,20 @@ sup {
 }
 
 
-@media screen and (min-width: 300px) and (max-width: 865px) {	
+
+
+
+
+
+
+
+
+@media screen and (min-width: 300px) and (max-width: 360px) {	
 	 	body, html {
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-right: 10px;
-	padding-left: 10px;
+	margin-top: 45px;
+	margin-bottom: 0px;
+	padding-right: 0%;
+	padding-left: 35px;
 	
 	}
 	
@@ -484,7 +504,7 @@ sup {
 	display: none;
 	}
 
-	.menu{
+	#menu{
 	display: none;
 	}
 
