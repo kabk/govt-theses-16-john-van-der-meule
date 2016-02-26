@@ -486,7 +486,25 @@ sup {
 	display: none;
 	}
 	
-	
+	h1 {
+	font-size: 30px;
+	line-height: 32pt;
+	font-weight: normal;
+	margin-left: auto;	
+	margin-right: auto;	
+	text-align: center;
+		
+}
+
+h2 {
+	font-size: 20px;
+	line-height: 21pt;
+	font-weight: normal;
+	margin-left: auto;	
+	margin-right: auto;	
+	text-align: center;
+}
+
 .hoofdstuk{
 	width: 100%;
 	margin-top: -50px;
