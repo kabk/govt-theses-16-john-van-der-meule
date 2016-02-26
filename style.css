@@ -472,6 +472,7 @@ sup {
 	
 	.titel{
 	width: 100%;
+	background-repeat: no-repeat;
 	margin-top: 40px;
 	margin-right:auto;
     margin-left: auto;	
@@ -480,8 +481,9 @@ sup {
 	clear: both;
 }
 
-.subtitel{
+	.subtitel{
 	width: 80%;
+	background-repeat: no-repeat;
 	margin-right:auto;
 	margin-top: 0px;
     margin-left: auto;	
@@ -492,9 +494,67 @@ sup {
 	
 
 	#multicover{
-	display: none;
+	background-image: url("images/multi/13.png");
+	background-repeat: no-repeat;
+	margin-bottom:0px;
 	}
 
+	 .makeMeDraggable100 { 
+		display: none;
+	 }
+	 
+	  .makeMeDraggable101 { 
+		display: none;
+	 }
+	 
+	  .makeMeDraggable102 { 
+		display: none;
+	 }
+	 
+	  .makeMeDraggable103 { 
+		display: none;
+	 }
+	  .makeMeDraggable104 { 
+		display: none;
+	 }
+	  .makeMeDraggable105 { 
+		display: none;
+	 }
+	 
+	 .makeMeDraggable106 { 
+		display: none;
+	 }
+	 
+	  .makeMeDraggable107 { 
+		display: none;
+	 }
+	 
+	  .makeMeDraggable108 { 
+		display: none;
+	 }
+	 
+	  .makeMeDraggable109 { 
+		display: none;
+	 }
+	  .makeMeDraggable110 { 
+		display: none;
+	 }
+	  .makeMeDraggable111 { 
+		display: none;
+	 }
+	   .makeMeDraggable112 { 
+		display: none;
+	 }
+	  .makeMeDraggable113 { 
+		display: none;
+	 }
+	   .makeMeDraggable114 { 
+		display: none;
+	 }
+	  .makeMeDraggable115 { 
+		display: none;
+	 }
+	 
 	#menu{
 	display: none;
 	}
@@ -505,7 +565,7 @@ sup {
 	
 	h1 {
 	font-size: 30px;
-	line-height: 32pt;
+	line-height: 25pt;
 	font-weight: normal;
 	margin-left: auto;	
 	margin-right: auto;	
@@ -539,7 +599,7 @@ h2 {
 	margin-left: 5%;
 	padding-top: 80px;
 	font-size: 20px;
-	line-height: 22pt;
+	line-height: 20pt;
 	font-weight: normal;
 	float: left;
 
