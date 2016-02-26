@@ -518,7 +518,7 @@ h2 {
 }
 
 .hoofdstuktitel{
-	width: 75%;
+	width: 95%;
 	margin-left: 5%;
 	padding-top: 80px;
 	font-size: 20px;
@@ -529,7 +529,7 @@ h2 {
 }
 
 .inhoud	{
-	width: 75%;
+	width: 95%;
 	padding-top: 20px;
 	margin-right:auto;
     margin-left: auto;	
@@ -542,7 +542,7 @@ h2 {
 }
 
 #inhoud1{
-	width: 75%;
+	width: 95%;
 	padding-top: 20px;	
     margin-bottom: 40px;	
 	font-family: 'Work Sans', sans-serif;	
@@ -554,7 +554,7 @@ h2 {
 }
 
 #inhoud2{
-	width: 75%;
+	width: 95%;
 	padding-top: 20px;	
     margin-bottom: 40px;	
 	font-family: 'Work Sans', sans-serif;	
@@ -565,7 +565,7 @@ h2 {
 }
 
 #inhoud3{
-	width: 75%;
+	width: 95%;
 	padding-top: 20px;	
     margin-bottom: 40px;	
 	font-family: 'Work Sans', sans-serif;	
@@ -576,7 +576,7 @@ h2 {
 }
 
 #inhoud4{
-	width: 75%;
+	width: 95%;
 	padding-top: 20px;		
     margin-bottom: 40px;	
 	font-family: 'Work Sans', sans-serif;	
@@ -587,7 +587,7 @@ h2 {
 }
 
 #inhoud5{
-	width: 75%;
+	width: 95%;
 	padding-top: 20px;	
     margin-bottom: 80px;	
 	font-family: 'Work Sans', sans-serif;	
