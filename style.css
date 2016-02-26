@@ -494,7 +494,7 @@ sup {
 	
 
 	#multicover{
-	background-image: url("images/multi/13.png");
+	background-image: url("images/multi/9.png");
 	background-repeat: no-repeat;
 	margin-bottom:0px;
 	}
@@ -564,8 +564,8 @@ sup {
 	}
 	
 	h1 {
-	font-size: 30px;
-	line-height: 25pt;
+	font-size: 40px;
+	line-height: 38px;
 	font-weight: normal;
 	margin-left: auto;	
 	margin-right: auto;	
@@ -620,7 +620,9 @@ h2 {
 
 #inhoud1{
 	width: 95%;
-	padding-top: 20px;	
+	padding-top: 20px;
+	background-image: url("images/multi/10.png");
+	background-repeat: no-repeat;	
     margin-bottom: 40px;	
 	font-family: 'Work Sans', sans-serif;	
 	font-size: 12px;
@@ -633,6 +635,8 @@ h2 {
 #inhoud2{
 	width: 95%;
 	padding-top: 20px;	
+	background-image: url("images/multi/3.png");
+	background-repeat: no-repeat;
     margin-bottom: 40px;	
 	font-family: 'Work Sans', sans-serif;	
 	font-size: 11px;
@@ -644,6 +648,8 @@ h2 {
 #inhoud3{
 	width: 95%;
 	padding-top: 20px;	
+	background-image: url("images/multi/8.png");
+	background-repeat: no-repeat;
     margin-bottom: 40px;	
 	font-family: 'Work Sans', sans-serif;	
 	font-size: 11px;
@@ -654,7 +660,9 @@ h2 {
 
 #inhoud4{
 	width: 95%;
-	padding-top: 20px;		
+	padding-top: 20px;	
+	background-image: url("images/multi/5.png");
+	background-repeat: no-repeat;
     margin-bottom: 40px;	
 	font-family: 'Work Sans', sans-serif;	
 	font-size: 11px;
@@ -666,6 +674,8 @@ h2 {
 #inhoud5{
 	width: 95%;
 	padding-top: 20px;	
+	background-image: url("images/multi/9.png");
+	background-repeat: no-repeat;
     margin-bottom: 80px;	
 	font-family: 'Work Sans', sans-serif;	
 	font-size: 11px;
