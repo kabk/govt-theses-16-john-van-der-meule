@@ -1,143 +1,3 @@
-
-
-
-a:link {
-    color: #000000;
-    text-decoration: none;
-}
-
-/* visited link */
-a:visited {
-    color: #000000;
-    text-decoration: none;
-}
-
-/* mouse over link */
-a:hover {
-    color: #00ffcc;
-    text-decoration: none;
-}
-
-/* selected link */
-a:active {
-    color: #000000;
-    text-decoration: none;
-}
-
-
-::-moz-selection {
-    background-color: #00ffcc;
-    color: #000;
-}
- 
-::selection {
-    background-color: #00ffcc;
-    color: #000;
-}
-
-
-::-webkit-scrollbar {
-  width: 15px;
-  height: 15px;
-}
-::-webkit-scrollbar-button {
-  width: 24px;
-  height: 24px;
-}
-::-webkit-scrollbar-thumb {
-  background: #00ffcc;
-  border: 0px none #ffffff;
-  border-radius: 0px;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: #00ffcc;
-}
-::-webkit-scrollbar-thumb:active {
-  background: #00ffcc;
-}
-::-webkit-scrollbar-track {
-  background: #FFFFFF;
-  border: 0px none #ffffff;
-  border-radius: 50px;
-}
-::-webkit-scrollbar-track:hover {
-  background: #FFFFFF;
-}
-::-webkit-scrollbar-track:active {
-  background: #FFFFFF;
-}
-::-webkit-scrollbar-corner {
-  background: transparent;
-}
-
-::-o-scrollbar {
-  width: 15px;
-  height: 15px;
-}
-::-o-scrollbar-button {
-  width: 24px;
-  height: 24px;
-}
-::-o-scrollbar-thumb {
-  background: #00ffcc;
-  border: 0px none #ffffff;
-  border-radius: 0px;
-}
-::-o-scrollbar-thumb:hover {
-  background: #00ffcc;
-}
-::-o-scrollbar-thumb:active {
-  background: #00ffcc;
-}
-::-o-scrollbar-track {
-  background: #FFFFFF;
-  border: 0px none #ffffff;
-  border-radius: 50px;
-}
-::-o-scrollbar-track:hover {
-  background: #FFFFFF;
-}
-::-o-scrollbar-track:active {
-  background: #FFFFFF;
-}
-::-o-scrollbar-corner {
-  background: transparent;
-}
-
-::-moz-scrollbar {
- width: 15px;
-  height: 15px;
-}
-::-moz-scrollbar-button {
-  width: 24px;
-  height: 24px;
-}
-::-moz-scrollbar-thumb {
-  background: #00ffcc;
-  border: 0px none #ffffff;
-  border-radius: 0px;
-}
-::-moz-scrollbar-thumb:hover {
-  background: #00ffcc;
-}
-::-moz-scrollbar-thumb:active {
-  background: #00ffcc;
-}
-::-moz-scrollbar-track {
-  background: #FFFFFF;
-  border: 0px none #ffffff;
-  border-radius: 50px;
-}
-::-moz-scrollbar-track:hover {
-  background: #FFFFFF;
-}
-::-moz-scrollbar-track:active {
-  background: #FFFFFF;
-}
-::-moz-scrollbar-corner {
-  background: transparent;
-}
-
 <!-- PRINT -->
 
 @media print {
@@ -331,6 +191,11 @@ body, html {
 	float: left;
 }
 
+img{
+	width: 100%;
+	
+}
+
 .quote {
 	margin-left: 10%;
 	  margin-top: 30px;
@@ -424,7 +289,7 @@ u {
 .footertiteltop{
 	font-family: 'Work Sans', sans-serif;	
 	position: fixed;
-	top: 30px;
+	top: 170px;
 	left: -240px;
 	text-align: left;
 	width: 550px;
