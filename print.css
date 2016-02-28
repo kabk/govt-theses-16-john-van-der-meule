@@ -1,0 +1,259 @@
+	 	body, html {
+	margin-top: 45px;
+	margin-bottom: 0px;
+	padding-right: 5px;
+	padding-left: 16px;
+	
+	}
+	
+	.titel{
+	width: 100%;
+	background-repeat: no-repeat;
+	margin-top: 0px;
+	margin-right:auto;
+    margin-left: auto;	
+	font-family: 'Work Sans', sans-serif;	
+	letter-spacing:0px;
+	clear: both;
+}
+
+	.subtitel{
+	width: 80%;
+	background-repeat: no-repeat;
+	margin-right:auto;
+	margin-top: 0px;
+    margin-left: auto;	
+    margin-bottom: 50px;
+	font-family: 'Work Sans', sans-serif;	
+	clear: both;
+}
+	
+
+	#multicover{
+	background-image: url("images/multi/9.png");
+	background-repeat: no-repeat;
+	margin-bottom:0px;
+	}
+
+	 .makeMeDraggable100 { 
+		display: none;
+	 }
+	 
+	  .makeMeDraggable101 { 
+		display: none;
+	 }
+	 
+	  .makeMeDraggable102 { 
+		display: none;
+	 }
+	 
+	  .makeMeDraggable103 { 
+		display: none;
+	 }
+	  .makeMeDraggable104 { 
+		display: none;
+	 }
+	  .makeMeDraggable105 { 
+		display: none;
+	 }
+	 
+	 .makeMeDraggable106 { 
+		display: none;
+	 }
+	 
+	  .makeMeDraggable107 { 
+		display: none;
+	 }
+	 
+	  .makeMeDraggable108 { 
+		display: none;
+	 }
+	 
+	  .makeMeDraggable109 { 
+		display: none;
+	 }
+	  .makeMeDraggable110 { 
+		display: none;
+	 }
+	  .makeMeDraggable111 { 
+		display: none;
+	 }
+	   .makeMeDraggable112 { 
+		display: none;
+	 }
+	  .makeMeDraggable113 { 
+		display: none;
+	 }
+	   .makeMeDraggable114 { 
+		display: none;
+	 }
+	  .makeMeDraggable115 { 
+		display: none;
+	 }
+	 
+	#menu{
+	display: none;
+	}
+
+	.footer{
+	display: none;
+	}
+	
+	h1 {
+	font-size: 80px;
+	line-height: 68px;
+	font-weight: normal;
+	margin-left: auto;	
+	margin-right: auto;	
+	text-align: center;
+		
+}
+
+h2 {
+	font-size: 30px;
+	line-height: 28pt;
+	font-weight: normal;
+	margin-left: auto;	
+	margin-right: auto;	
+	text-align: center;
+}
+
+.hoofdstuk{
+	width: 100%;
+	margin-right:auto;
+    margin-left: auto;	
+	font-family: 'Work Sans', sans-serif;
+	font-size: 16px;
+	letter-spacing:1px;
+	line-height: 18pt;
+	page-break-after: always;
+ 	page-break-inside: avoid;
+}
+
+.hoofdstuktitel{
+	width: 60%;
+	margin-left: 5%;
+	font-size: 20px;
+	line-height: 20pt;
+	font-weight: normal;
+	float: left;
+
+}
+
+.inhoud	{
+	width: 60%;
+	padding-top: 20px;	
+    margin-bottom: 40px;	
+	font-family: 'Work Sans', sans-serif;	
+	font-size: 11px;
+	letter-spacing:0px;
+	line-height: 12pt;
+	float: left;
+	
+}
+
+#inhoud1{
+	width: 60%;
+	padding-top: 20px;
+    margin-bottom: 40px;	
+	font-family: 'Work Sans', sans-serif;	
+	font-size: 11px;
+	letter-spacing:0px;
+	line-height: 12pt;
+	float: left;
+	
+}
+
+#inhoud2{
+	width: 60%;
+	padding-top: 20px;	
+    margin-bottom: 40px;	
+	font-family: 'Work Sans', sans-serif;	
+	font-size: 11px;
+	letter-spacing:0px;
+	line-height: 12pt;
+	float: left;
+}
+
+#inhoud3{
+	width: 60%;
+	padding-top: 20px;	
+
+    margin-bottom: 40px;	
+	font-family: 'Work Sans', sans-serif;	
+	font-size: 11px;
+	letter-spacing:0px;
+	line-height: 12pt;
+	float: left;
+}
+
+#inhoud4{
+	width: 60%;
+	padding-top: 20px;	
+
+    margin-bottom: 40px;	
+	font-family: 'Work Sans', sans-serif;	
+	font-size: 11px;
+	letter-spacing:0px;
+	line-height: 12pt;
+	float: left;
+}
+
+#inhoud5{
+	width: 60%;
+	padding-top: 20px;	
+    margin-bottom: 80px;	
+	font-family: 'Work Sans', sans-serif;	
+	font-size: 11px;
+	letter-spacing:0px;
+	line-height: 12pt;
+	float: left;
+}
+
+
+.image{
+	width: 30%;
+	margin-top: 0px;	
+	margin-left: 5%;
+	margin-right: 0px;
+    margin-bottom: 40px;	
+	font-family: 'Work Sans', sans-serif;	
+	font-size: 16px;
+	letter-spacing:1px;
+	line-height: 18pt;	
+	float: left;
+}
+
+#footnote{
+	width: 100%;
+	margin-right:auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+	font-family: 'Work Sans', sans-serif;	
+	font-size: 11px;
+	letter-spacing:0px;
+	line-height: 12pt;
+	
+}
+
+
+
+.quote {
+	margin-left: 10%;
+	  margin-top: 30px;
+	  margin-bottom: 30px;
+	  font-size: 11px;
+	letter-spacing:0px;
+	line-height: 12pt;
+	
+}
+
+.footertitelbottom{
+	display: none;
+}
+
+.footertiteltop{
+		display: none;
+
+}
