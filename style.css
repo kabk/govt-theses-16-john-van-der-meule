@@ -135,6 +135,50 @@ body, html {
 	float: left;
 }
 
+#inhoud6{
+	width: 55%;
+	padding-top: 50px;	
+    margin-bottom: 80px;	
+	font-family: 'Work Sans', sans-serif;	
+	font-size: 16px;
+	letter-spacing:0px;
+	line-height: 18pt;
+	float: left;
+}
+
+#inhoud7{
+	width: 55%;
+	padding-top: 50px;	
+    margin-bottom: 80px;	
+	font-family: 'Work Sans', sans-serif;	
+	font-size: 16px;
+	letter-spacing:0px;
+	line-height: 18pt;
+	float: left;
+}
+
+#inhoud8{
+	width: 55%;
+	padding-top: 50px;	
+    margin-bottom: 80px;	
+	font-family: 'Work Sans', sans-serif;	
+	font-size: 16px;
+	letter-spacing:0px;
+	line-height: 18pt;
+	float: left;
+}
+
+#inhoud9{
+	width: 55%;
+	padding-top: 50px;	
+    margin-bottom: 80px;	
+	font-family: 'Work Sans', sans-serif;	
+	font-size: 16px;
+	letter-spacing:0px;
+	line-height: 18pt;
+	float: left;
+}
+
 
 .image{
 	width: 20%;
@@ -159,7 +203,7 @@ img{
 	  margin-top: 30px;
 	  margin-bottom: 30px;
 	 line-height: 17pt;
-	 letter-spacing:2px;
+	 letter-spacing:0px;
 	
 }
 
