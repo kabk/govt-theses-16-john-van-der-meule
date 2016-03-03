@@ -1,20 +1,14 @@
-
+@media print{
 
 	 body, html {
-	margin-top: 45px;
+	margin-top: 15mm;
 	margin-bottom: 10px;
-
 	padding-right: 5px;
 	padding-left: 16px;
 	
 	}
 	
-	@top-center {
-    font-family: sans-serif;
-    font-weight: bold;
-    font-size: 2em;
-    content: counter(page);
-  }
+
   
 	.titel{
 	width: 100%;
@@ -116,7 +110,6 @@
 	margin-left: auto;	
 	margin-right: auto;	
 	text-align: center;
-	page-break-before: always;
 		
 }
 
@@ -139,6 +132,7 @@ h2 {
 	font-size: 16px;
 	letter-spacing:1px;
 	line-height: 18pt;
+	page-break-after: always;
 
 }
 
@@ -149,22 +143,11 @@ h2 {
 	font-size: 20px;
 	line-height: 20pt;
 	font-weight: normal;
-	
-
+		page-break-after: always;
 
 }
 
-.inhoud	{
-	width: 60%;
-	padding-top: 0px;	
-    margin-bottom: 40px;	
-	font-family: 'Work Sans', sans-serif;	
-	font-size: 11px;
-	letter-spacing:0px;
-	line-height: 12pt;
-	float: left;
-	
-}
+
 
 #inhoud1{
 	width: 60%;
@@ -175,6 +158,8 @@ h2 {
 	letter-spacing:0px;
 	line-height: 12pt;
 	/*float: left;*/
+		page-break-after: always;
+
 	
 }
 
@@ -186,7 +171,9 @@ h2 {
 	font-size: 11px;
 	letter-spacing:0px;
 	line-height: 12pt;
-	float: left;
+	/*float: left;*/
+		page-break-after: always;
+
 
 }
 
@@ -198,7 +185,9 @@ h2 {
 	font-size: 11px;
 	letter-spacing:0px;
 	line-height: 12pt;
-	float: left;
+	/*float: left;*/
+		page-break-after: always;
+
 
 }
 
@@ -210,7 +199,9 @@ h2 {
 	font-size: 11px;
 	letter-spacing:0px;
 	line-height: 12pt;
-	float: left;
+	/*float: left;*/
+		page-break-after: always;
+
 
 
 }
@@ -223,7 +214,9 @@ h2 {
 	font-size: 11px;
 	letter-spacing:0px;
 	line-height: 12pt;
-	float: left;
+	/*float: left;*/
+		page-break-after: always;
+
 
 }
 
@@ -235,7 +228,9 @@ h2 {
 	font-size: 11px;
 	letter-spacing:0px;
 	line-height: 12pt;
-	float: left;
+	/*float: left;*/
+		page-break-after: always;
+
 
 
 }
@@ -248,7 +243,9 @@ h2 {
 	font-size: 11px;
 	letter-spacing:0px;
 	line-height: 12pt;
-	float: left;
+	/*float: left;*/
+		page-break-after: always;
+
 
 
 }
@@ -261,7 +258,9 @@ h2 {
 	font-size: 11px;
 	letter-spacing:0px;
 	line-height: 12pt;
-	float: left;
+	/*float: left;*/
+		page-break-after: always;
+
 
 
 }
@@ -274,7 +273,8 @@ h2 {
 	font-size: 11px;
 	letter-spacing:0px;
 	line-height: 12pt;
-	float: left;
+	/*float: left;*/
+		page-break-after: always;
 
 
 }
@@ -302,6 +302,9 @@ h2 {
 	letter-spacing:1px;
 	line-height: 18pt;	
 	float: left;
+		page-break-after: always;
+
+	
 }
 
 .quote {
@@ -320,5 +323,7 @@ h2 {
 
 .footertiteltop{
 		display: none;
+
+}
 
 }
