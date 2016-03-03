@@ -9,6 +9,13 @@
 	
 	}
 	
+	@top-center {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    content: counter(page);
+  }
+  
 	.titel{
 	width: 100%;
 	background-repeat: no-repeat;
@@ -109,8 +116,11 @@
 	margin-left: auto;	
 	margin-right: auto;	
 	text-align: center;
+	page-break-before: always;
 		
 }
+
+
 
 h2 {
 	font-size: 30px;
@@ -129,23 +139,24 @@ h2 {
 	font-size: 16px;
 	letter-spacing:1px;
 	line-height: 18pt;
-	page-break-after: always;
 
 }
 
 .hoofdstuktitel{
 	width: 60%;
 	margin-left: 5%;
+	margin-top: 0px;
 	font-size: 20px;
 	line-height: 20pt;
 	font-weight: normal;
-	float: left;
+	
+
 
 }
 
 .inhoud	{
 	width: 60%;
-	padding-top: 20px;	
+	padding-top: 0px;	
     margin-bottom: 40px;	
 	font-family: 'Work Sans', sans-serif;	
 	font-size: 11px;
@@ -157,107 +168,115 @@ h2 {
 
 #inhoud1{
 	width: 60%;
-	padding-top: 20px;
-    margin-bottom: 40px;	
+	padding-top: 0px;
+    margin-bottom: 0px;	
 	font-family: 'Work Sans', sans-serif;	
 	font-size: 11px;
 	letter-spacing:0px;
 	line-height: 12pt;
-	float: left;
-		page-break-after: always;
-
+	/*float: left;*/
 	
 }
 
 #inhoud2{
 	width: 60%;
-	padding-top: 20px;	
-    margin-bottom: 40px;	
+	padding-top: 0px;	
+    margin-bottom: 0px;	
 	font-family: 'Work Sans', sans-serif;	
 	font-size: 11px;
 	letter-spacing:0px;
 	line-height: 12pt;
 	float: left;
-		page-break-after: always;
 
 }
 
 #inhoud3{
 	width: 60%;
-	padding-top: 20px;	
-
-    margin-bottom: 40px;	
+	padding-top: 0px;	
+    margin-bottom: 0px;	
 	font-family: 'Work Sans', sans-serif;	
 	font-size: 11px;
 	letter-spacing:0px;
 	line-height: 12pt;
 	float: left;
+
 }
 
 #inhoud4{
 	width: 60%;
-	padding-top: 20px;	
-    margin-bottom: 40px;	
+	padding-top: 0px;	
+    margin-bottom: 0px;	
 	font-family: 'Work Sans', sans-serif;	
 	font-size: 11px;
 	letter-spacing:0px;
 	line-height: 12pt;
 	float: left;
+
+
 }
 
 #inhoud5{
 	width: 60%;
-	padding-top: 20px;	
-    margin-bottom: 40px;	
+	padding-top: 0px;	
+    margin-bottom: 0px;	
 	font-family: 'Work Sans', sans-serif;	
 	font-size: 11px;
 	letter-spacing:0px;
 	line-height: 12pt;
 	float: left;
+
 }
 
 #inhoud6{
 	width: 60%;
-	padding-top: 20px;	
-    margin-bottom: 40px;	
+	padding-top: 0px;	
+    margin-bottom: 0px;	
 	font-family: 'Work Sans', sans-serif;	
 	font-size: 11px;
 	letter-spacing:0px;
 	line-height: 12pt;
 	float: left;
+
+
 }
 
 #inhoud7{
 	width: 60%;
-	padding-top: 20px;	
-    margin-bottom: 40px;	
+	padding-top: 0px;	
+    margin-bottom: 0px;	
 	font-family: 'Work Sans', sans-serif;	
 	font-size: 11px;
 	letter-spacing:0px;
 	line-height: 12pt;
 	float: left;
+
+
 }
 
 #inhoud8{
 	width: 60%;
-	padding-top: 20px;	
-    margin-bottom: 40px;	
+	padding-top: 0px;	
+    margin-bottom: 0px;	
 	font-family: 'Work Sans', sans-serif;	
 	font-size: 11px;
 	letter-spacing:0px;
 	line-height: 12pt;
 	float: left;
+
+
 }
 
 #inhoud9{
 	width: 60%;
-	padding-top: 20px;	
-    margin-bottom: 40px;	
+	padding-top: 0px;	
+    margin-bottom: 0px;	
 	font-family: 'Work Sans', sans-serif;	
 	font-size: 11px;
 	letter-spacing:0px;
 	line-height: 12pt;
 	float: left;
+
+
 }
 
 #footnote{
@@ -273,7 +292,17 @@ h2 {
 	
 }
 
-
+.image{
+	width: 16%;
+	margin-top: 0px;
+    margin-left: 100px;	
+    margin-bottom: 0px;	
+	font-family: 'Work Sans', sans-serif;	
+	font-size: 16px;
+	letter-spacing:1px;
+	line-height: 18pt;	
+	float: left;
+}
 
 .quote {
 	margin-left: 10%;
