@@ -675,7 +675,7 @@ h2 {
 #inhoud5{
 	width: 100%;
 	padding-top: 20px;	
-	background-image: url("images/multi/9.png");
+	background-image: url("images/multi/4.png");
 	background-repeat: no-repeat;
     margin-bottom: 80px;	
 	font-family: 'Work Sans', sans-serif;	
@@ -685,6 +685,57 @@ h2 {
 	float: left;
 }
 
+#inhoud6{
+	width: 100%;
+	padding-top: 20px;	
+	background-image: url("images/multi/16.png");
+	background-repeat: no-repeat;
+    margin-bottom: 40px;	
+	font-family: 'Work Sans', sans-serif;	
+	font-size: 11px;
+	letter-spacing:0px;
+	line-height: 12pt;
+	float: left;
+}
+
+#inhoud7{
+	width: 100%;
+	padding-top: 20px;	
+	background-image: url("images/multi/7.png");
+	background-repeat: no-repeat;
+    margin-bottom: 80px;	
+	font-family: 'Work Sans', sans-serif;	
+	font-size: 11px;
+	letter-spacing:0px;
+	line-height: 12pt;
+	float: left;
+}
+
+#inhoud8{
+	width: 100%;
+	padding-top: 20px;	
+	background-image: url("images/multi/14.png");
+	background-repeat: no-repeat;
+    margin-bottom: 80px;	
+	font-family: 'Work Sans', sans-serif;	
+	font-size: 11px;
+	letter-spacing:0px;
+	line-height: 12pt;
+	float: left;
+}
+
+#inhoud9{
+	width: 100%;
+	padding-top: 20px;	
+	background-image: url("images/multi/11.png");
+	background-repeat: no-repeat;
+    margin-bottom: 80px;	
+	font-family: 'Work Sans', sans-serif;	
+	font-size: 11px;
+	letter-spacing:0px;
+	line-height: 12pt;
+	float: left;
+}
 
 .image{
 	width: 100%;

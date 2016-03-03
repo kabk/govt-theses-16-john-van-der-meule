@@ -1,4 +1,6 @@
-	 	body, html {
+
+
+	 body, html {
 	margin-top: 45px;
 	margin-bottom: 10px;
 
@@ -128,7 +130,7 @@ h2 {
 	letter-spacing:1px;
 	line-height: 18pt;
 	page-break-after: always;
- 	page-break-inside: avoid;
+
 }
 
 .hoofdstuktitel{
@@ -162,6 +164,8 @@ h2 {
 	letter-spacing:0px;
 	line-height: 12pt;
 	float: left;
+		page-break-after: always;
+
 	
 }
 
@@ -174,6 +178,8 @@ h2 {
 	letter-spacing:0px;
 	line-height: 12pt;
 	float: left;
+		page-break-after: always;
+
 }
 
 #inhoud3{
@@ -191,7 +197,6 @@ h2 {
 #inhoud4{
 	width: 60%;
 	padding-top: 20px;	
-
     margin-bottom: 40px;	
 	font-family: 'Work Sans', sans-serif;	
 	font-size: 11px;
@@ -203,7 +208,7 @@ h2 {
 #inhoud5{
 	width: 60%;
 	padding-top: 20px;	
-    margin-bottom: 80px;	
+    margin-bottom: 40px;	
 	font-family: 'Work Sans', sans-serif;	
 	font-size: 11px;
 	letter-spacing:0px;
@@ -211,17 +216,47 @@ h2 {
 	float: left;
 }
 
-
-.image{
-	width: 30%;
-	margin-top: 0px;	
-	margin-left: 5%;
-	margin-right: 0px;
+#inhoud6{
+	width: 60%;
+	padding-top: 20px;	
     margin-bottom: 40px;	
 	font-family: 'Work Sans', sans-serif;	
-	font-size: 16px;
-	letter-spacing:1px;
-	line-height: 18pt;	
+	font-size: 11px;
+	letter-spacing:0px;
+	line-height: 12pt;
+	float: left;
+}
+
+#inhoud7{
+	width: 60%;
+	padding-top: 20px;	
+    margin-bottom: 40px;	
+	font-family: 'Work Sans', sans-serif;	
+	font-size: 11px;
+	letter-spacing:0px;
+	line-height: 12pt;
+	float: left;
+}
+
+#inhoud8{
+	width: 60%;
+	padding-top: 20px;	
+    margin-bottom: 40px;	
+	font-family: 'Work Sans', sans-serif;	
+	font-size: 11px;
+	letter-spacing:0px;
+	line-height: 12pt;
+	float: left;
+}
+
+#inhoud9{
+	width: 60%;
+	padding-top: 20px;	
+    margin-bottom: 40px;	
+	font-family: 'Work Sans', sans-serif;	
+	font-size: 11px;
+	letter-spacing:0px;
+	line-height: 12pt;
 	float: left;
 }
 
